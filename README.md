@@ -1,4 +1,8 @@
-### Hi there 👋 I'm [João Galego](https://jgalego.github.io/)
+### Hi there 👋
+
+My name is [João Galego](https://jgalego.github.io/) and this is my GitHub profile.
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/7/72/Playing_T-Rex_Runner.gif" width="70%"/>
 
 <!--
 **JGalego/JGalego** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
