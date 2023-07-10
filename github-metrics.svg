@@ -188,14 +188,14 @@
                         <rect x="0" y="0" width="460" height="8" fill="white" rx="5"/>
                     </mask>
                     <rect mask="url(#languages-bar)" x="0" y="0" width="0" height="8" fill="#d1d5da"/>
-                    <rect mask="url(#languages-bar)" x="0" y="0" width="198.5221555160552" height="8" fill="#e34c26"/>
-                    <rect mask="url(#languages-bar)" x="198.5221555160552" y="0" width="173.67831999389213" height="8" fill="#f1e05a"/>
-                    <rect mask="url(#languages-bar)" x="372.2004755099473" y="0" width="43.15580746901174" height="8" fill="#c6538c"/>
-                    <rect mask="url(#languages-bar)" x="415.35628297895903" y="0" width="19.136060149535083" height="8" fill="#3572A5"/>
-                    <rect mask="url(#languages-bar)" x="434.49234312849416" y="0" width="8.755318840065424" height="8" fill="#89e051"/>
-                    <rect mask="url(#languages-bar)" x="443.24766196855956" y="0" width="5.9194859072916906" height="8" fill="#844FBA"/>
-                    <rect mask="url(#languages-bar)" x="449.1671478758513" y="0" width="5.556906884140958" height="8" fill="#563d7c"/>
-                    <rect mask="url(#languages-bar)" x="454.72405475999227" y="0" width="5.275945240007785" height="8" fill="#74283c"/>
+                    <rect mask="url(#languages-bar)" x="0" y="0" width="200.2380748900749" height="8" fill="#e34c26"/>
+                    <rect mask="url(#languages-bar)" x="200.2380748900749" y="0" width="172.53857526824288" height="8" fill="#f1e05a"/>
+                    <rect mask="url(#languages-bar)" x="372.77665015831775" y="0" width="42.87260226558928" height="8" fill="#c6538c"/>
+                    <rect mask="url(#languages-bar)" x="415.64925242390706" y="0" width="19.010481875713072" height="8" fill="#3572A5"/>
+                    <rect mask="url(#languages-bar)" x="434.65973429962014" y="0" width="8.697863030556825" height="8" fill="#89e051"/>
+                    <rect mask="url(#languages-bar)" x="443.357597330177" y="0" width="5.8806399371002" height="8" fill="#844FBA"/>
+                    <rect mask="url(#languages-bar)" x="449.23823726727716" y="0" width="5.520440298603129" height="8" fill="#563d7c"/>
+                    <rect mask="url(#languages-bar)" x="454.7586775658803" y="0" width="5.241322434119723" height="8" fill="#74283c"/>
                 </svg>
                 <div class="field center horizontal-wrap fill-width">
                     <div class="field center no-wrap language">
@@ -1320,8 +1320,8 @@
                                 <div class="details">
                                     <div>on branch <span class="code">main</span></div>
                                     <div class="commit">
-                                        <div class="sha">#0c7c037</div>
-                                        <div class="message">Added slide on fine-tuning SD with SM; Fixed title formatting</div>
+                                        <div class="sha">#6f31069</div>
+                                        <div class="message">Updated README</div>
                                     </div>
                                 </div>
                             </section>
@@ -1340,8 +1340,8 @@
                                 <div class="details">
                                     <div>on branch <span class="code">gh-pages</span></div>
                                     <div class="commit">
-                                        <div class="sha">#0c7c037</div>
-                                        <div class="message">Added slide on fine-tuning SD with SM; Fixed title formatting</div>
+                                        <div class="sha">#6f31069</div>
+                                        <div class="message">Updated README</div>
                                     </div>
                                 </div>
                             </section>
@@ -1360,8 +1360,8 @@
                                 <div class="details">
                                     <div>on branch <span class="code">gh-pages</span></div>
                                     <div class="commit">
-                                        <div class="sha">#c7bd38a</div>
-                                        <div class="message">Disable  keyboard shortcuts for navigation in menus</div>
+                                        <div class="sha">#ff5125e</div>
+                                        <div class="message">Added slides on DPO, generative agents, LoRA, Wikipedia embeddings, MLU and more (uff!!!)</div>
                                     </div>
                                 </div>
                             </section>
@@ -1380,8 +1380,8 @@
                                 <div class="details">
                                     <div>on branch <span class="code">main</span></div>
                                     <div class="commit">
-                                        <div class="sha">#c7bd38a</div>
-                                        <div class="message">Disable  keyboard shortcuts for navigation in menus</div>
+                                        <div class="sha">#ff5125e</div>
+                                        <div class="message">Added slides on DPO, generative agents, LoRA, Wikipedia embeddings, MLU and more (uff!!!)</div>
                                     </div>
                                 </div>
                             </section>
@@ -1398,10 +1398,10 @@
                                     </div>
                                 </div>
                                 <div class="details">
-                                    <div>on branch <span class="code">gh-pages</span></div>
+                                    <div>on branch <span class="code">main</span></div>
                                     <div class="commit">
-                                        <div class="sha">#c11bce9</div>
-                                        <div class="message">Added blog search v0.1</div>
+                                        <div class="sha">#0c7c037</div>
+                                        <div class="message">Added slide on fine-tuning SD with SM; Fixed title formatting</div>
                                     </div>
                                 </div>
                             </section>
@@ -1429,7 +1429,7 @@
             </section>
             <footer>
                 <span>These metrics do not include all private contributions</span>
-                <span>Last updated 10 Jul 2023, 11:14:17 (timezone Europe/Lisbon) with lowlighter/metrics@3.33.0</span>
+                <span>Last updated 10 Jul 2023, 12:10:38 (timezone Europe/Lisbon) with lowlighter/metrics@3.33.0</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
