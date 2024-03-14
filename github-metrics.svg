@@ -1,8 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="757" class="columns">
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="633" class="columns">
     <defs>
         <style/>
     </defs>
-    <style>@keyframes animation-gauge{0%{stroke-dasharray:0 329}}@keyframes animation-rainbow{0%,to{color:#7f00ff;fill:#7f00ff}14%{color:#a933ff;fill:#a933ff}29%{color:#007fff;fill:#007fff}43%{color:#00ff7f;fill:#00ff7f}57%{color:#ff0;fill:#ff0}71%{color:#ff7f00;fill:#ff7f00}86%{color:red;fill:red}}svg{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;font-size:14px;color:#777}svg.columns .items-wrapper{column-count:2;column-gap:10px}svg.columns .items-wrapper&gt;*{-webkit-column-break-inside:avoid;page-break-inside:avoid;break-inside:avoid-column}@media (max-width:850px){svg.columns .items-wrapper{column-count:1}}h2,h3{margin:8px 0 2px;padding:0;color:#0366d6;font-weight:400}h2 svg,h3 svg{fill:currentColor}h2{font-size:16px}h3{font-size:14px}section&gt;.field{margin-left:5px;margin-right:5px}.field{display:flex;align-items:center;margin-bottom:2px;white-space:nowrap}.field svg{margin:0 8px;fill:#959da5;flex-shrink:0}.row{display:flex;flex-wrap:wrap}.row section{flex:1 1 0}.column{display:flex;flex-direction:column;align-items:center}.center{justify-content:center}.horizontal-wrap{flex-wrap:wrap}.no-wrap{white-space:nowrap}.fill-width{width:100%}.avatar{border-radius:50%;margin:0 6px}.organization.avatar{border-radius:15%}.organization.name{white-space:nowrap}.organization.contributions{margin:0 8px;flex-wrap:wrap}.contribution.organization{display:flex;border:1px solid #959da5;border-radius:6px;padding:2px 6px 2px 0;margin:2px;font-size:12px;background-color:#959da520}.contribution.organization.s{color:#eb355e;background-color:#eb355e26;border-color:#eb355e}.contribution.organization.a{color:#d79533;background-color:#e7bd6926;border-color:#e7bd69}.contribution.organization.b{color:#9d8fff;background-color:#9e91ff26;border-color:#9e91ff}.contribution.organization.c{color:#58a6ff;background-color:#58a6ff26;border-color:#58a6ff}.contribution .gauge-arc,.contribution .gauge-base{stroke:currentColor;stroke-width:4}.contribution .gauge text,.gauge text{fill:currentColor;font-size:13px}.contribution .gauge{margin:0 6px;color:inherit;transform:scale(1.4) translateY(1px)}.contribution .icon{fill:currentColor;width:10px;height:10px;margin-left:-9px;margin-top:8px;color:inherit;filter:brightness(.5)}.contribution.organization .avatar{margin:0 4px}.calendar.field{margin:4px 0 4px 7px}.calendar .day{outline:1px solid rgba(27,31,35,.04);outline-offset:-1px}svg.bar{margin:4px 0}.field.language{margin:0 8px;flex-grow:0}.field.language.details,footer{display:flex;justify-content:space-between}.field.language.details&gt;*{flex:1 1 0}footer{margin-top:8px;font-size:10px;font-style:italic;color:#666;text-align:right;flex-direction:column;justify-content:flex-end;padding:0 4px}.gauge{stroke-linecap:round;fill:none}.gauge.info{color:#58a6ff}.gauge-arc,.gauge-base{stroke:currentColor;stroke-width:10}.gauge-base{stroke-opacity:.2}.gauge-arc{fill:none;stroke-dashoffset:0;animation-delay:250ms;animation:animation-gauge 1s ease forwards}.gauge text{font-size:40px;font-family:monospace;text-anchor:middle;font-weight:600}.gauge .title{font-size:18px;color:#777}.activity{margin-bottom:12px}.activity .field{width:100%;overflow:hidden;text-overflow:ellipsis;max-width:450px;white-space:nowrap;margin-bottom:0}.activity .field .content{flex-grow:1;text-overflow:ellipsis;overflow:hidden}.activity .commit .sha,.activity .issue,.activity .repo{display:inline;color:#58a6ff}.activity .code,span.code{background-color:#7777771f;padding:1px 5px;font-size:80%;border-radius:6px;color:#777;font-family:SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace;margin:0 4px -3px}.activity .user{font-weight:600}.activity .details{padding-left:38px;display:flex;flex-direction:column;font-size:13px;color:#666}.activity .commit{display:flex;align-items:center}.activity .commit .sha,code{font-family:SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace}.activity .commit .sha{margin-right:4px}.activity .commit .message{overflow:hidden;text-overflow:ellipsis;width:360px;white-space:nowrap}.activity .details&gt;.comment{overflow:hidden;text-overflow:ellipsis;display:block;width:420px;margin-top:6px;border-left:3px solid #777777b2;padding-left:6px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical}svg.calendar{margin-left:13px;margin-top:4px}svg.calendar text{font-size:18px;fill:currentColor}.added{color:#3fb950}.field.license.details{display:flex;justify-content:space-between}.introduction{white-space:normal;margin:0 13px 2px}.achievement{display:flex;margin:4px 0}.achievement .icon{margin:0 4px;width:44px;height:44px}.achievement .text{font-size:12px;color:#666}.achievement .title{font-size:14px;color:#58a6ff}.achievement .gauge.info{color:#58a6ff}.achievement .value{background-color:#58a6ff26}.achievement.x .title{color:#666}.achievement.x .gauge.info{color:#b0b0b0}.achievement.x .value{background-color:#b0b0b026}.achievement.b .title{color:#9d8fff}.achievement.b .gauge.info{color:#9e91ff}.achievement.b .value{background-color:#9e91ff26}.achievement.a .title{color:#d79533}.achievement.a .gauge.info{color:#e7bd69}.achievement.a .value{background-color:#e7bd6926}.achievement.s .gauge.info,.achievement.s .title{color:#eb355e}.achievement.s .value{background-color:#eb355e26}.achievement.secret .title{color:#ff76cd}.achievement.secret .gauge.info{color:#ff79d1}.achievement.secret .value{background-color:#ff79d126}.achievement .gh,.achievement .value{border:1px solid currentColor;border-radius:16px;font-size:10px;padding:0 5px;white-space:nowrap}.achievement .gauge-arc,.achievement .gauge-base{stroke-width:6}.achievement .value-wrapper{margin-bottom:-50px;margin-top:36px;display:none}.achievement .value{margin-left:46px}.achievements.compact{display:flex;flex-wrap:wrap}.achievements.compact .achievement{flex-direction:column-reverse;align-items:center;width:80px}#metrics-end,.achievements.compact .info{width:100%}.achievements.compact .achievement .title{margin-bottom:2px;text-transform:capitalize;text-align:center}.achievements.compact .achievement .title .prefix{min-height:13px;font-size:10px;display:block;margin-bottom:-.25rem}.achievements.compact .achievement .value-wrapper{display:flex}.achievements.compact .achievement .gh,.achievements.compact .achievement .text{display:none}code{background-color:#7777771f;display:inline-block;border-radius:6px;color:#777;padding:1px 5px;font-size:80%}.token.comment{color:#690}.token.namespace{color:#b44418}.token.number{color:#2777aa}:root{--color-calendar-graph-day-bg:#ebedf0;--color-calendar-graph-day-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L1-bg:#9be9a8;--color-calendar-graph-day-L2-bg:#40c463;--color-calendar-graph-day-L3-bg:#30a14e;--color-calendar-graph-day-L4-bg:#216e39;--color-calendar-halloween-graph-day-L1-bg:#ffee4a;--color-calendar-halloween-graph-day-L2-bg:#ffc501;--color-calendar-halloween-graph-day-L3-bg:#fe9600;--color-calendar-halloween-graph-day-L4-bg:#03001c;--color-calendar-winter-graph-day-L1-bg:#0a3069;--color-calendar-winter-graph-day-L2-bg:#0969da;--color-calendar-winter-graph-day-L3-bg:#54aeff;--color-calendar-winter-graph-day-L4-bg:#b6e3ff;--color-calendar-graph-day-L4-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L3-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L2-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L1-border:rgba(27,31,35,0.06)}</style>
+    <style>@keyframes animation-gauge{0%{stroke-dasharray:0 329}}@keyframes animation-rainbow{0%,to{color:#7f00ff;fill:#7f00ff}14%{color:#a933ff;fill:#a933ff}29%{color:#007fff;fill:#007fff}43%{color:#00ff7f;fill:#00ff7f}57%{color:#ff0;fill:#ff0}71%{color:#ff7f00;fill:#ff7f00}86%{color:red;fill:red}}svg{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;font-size:14px;color:#777}svg.columns .items-wrapper{column-count:2;column-gap:10px}svg.columns .items-wrapper&gt;*{-webkit-column-break-inside:avoid;page-break-inside:avoid;break-inside:avoid-column}@media (max-width:850px){svg.columns .items-wrapper{column-count:1}}h2,h3{margin:8px 0 2px;padding:0;color:#0366d6;font-weight:400}h2 svg,h3 svg{fill:currentColor}h2{font-size:16px}h3{font-size:14px}section&gt;.field{margin-left:5px;margin-right:5px}.field{display:flex;align-items:center;margin-bottom:2px;white-space:nowrap}.field svg{margin:0 8px;fill:#959da5;flex-shrink:0}.row{display:flex;flex-wrap:wrap}.row section{flex:1 1 0}.column{display:flex;flex-direction:column;align-items:center}.center{justify-content:center}.horizontal-wrap{flex-wrap:wrap}.no-wrap{white-space:nowrap}.fill-width{width:100%}.avatar{border-radius:50%;margin:0 6px}.organization.avatar{border-radius:15%}.organization.name{white-space:nowrap}.organization.contributions{margin:0 8px;flex-wrap:wrap}.contribution.organization{display:flex;border:1px solid #959da5;border-radius:6px;padding:2px 6px 2px 0;margin:2px;font-size:12px;background-color:#959da520}.contribution.organization.s{color:#eb355e;background-color:#eb355e26;border-color:#eb355e}.contribution.organization.a{color:#d79533;background-color:#e7bd6926;border-color:#e7bd69}.contribution.organization.b{color:#9d8fff;background-color:#9e91ff26;border-color:#9e91ff}.contribution.organization.c{color:#58a6ff;background-color:#58a6ff26;border-color:#58a6ff}.contribution .gauge-arc,.contribution .gauge-base{stroke:currentColor;stroke-width:4}.contribution .gauge text,.gauge text{fill:currentColor;font-size:13px}.contribution .gauge{margin:0 6px;color:inherit;transform:scale(1.4) translateY(1px)}.contribution .icon{fill:currentColor;width:10px;height:10px;margin-left:-9px;margin-top:8px;color:inherit;filter:brightness(.5)}.contribution.organization .avatar{margin:0 4px}.calendar.field{margin:4px 0 4px 7px}.calendar .day{outline:1px solid rgba(27,31,35,.04);outline-offset:-1px}svg.bar{margin:4px 0}.field.language{margin:0 8px;flex-grow:0}.field.language.details,footer{display:flex;justify-content:space-between}.field.language.details&gt;*{flex:1 1 0}footer{margin-top:8px;font-size:10px;font-style:italic;color:#666;text-align:right;flex-direction:column;justify-content:flex-end;padding:0 4px}.gauge{stroke-linecap:round;fill:none}.gauge.info{color:#58a6ff}.gauge-arc,.gauge-base{stroke:currentColor;stroke-width:10}.gauge-base{stroke-opacity:.2}.gauge-arc{fill:none;stroke-dashoffset:0;animation-delay:250ms;animation:animation-gauge 1s ease forwards}.gauge text{font-size:40px;font-family:monospace;text-anchor:middle;font-weight:600}.gauge .title{font-size:18px;color:#777}.activity{margin-bottom:12px}.activity .field{width:100%;overflow:hidden;text-overflow:ellipsis;max-width:450px;white-space:nowrap;margin-bottom:0}.activity .field .content{flex-grow:1;text-overflow:ellipsis;overflow:hidden}.activity .commit .sha,.activity .issue,.activity .repo{display:inline;color:#58a6ff}.activity .code,span.code{background-color:#7777771f;padding:1px 5px;font-size:80%;border-radius:6px;color:#777;font-family:SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace;margin:0 4px -3px}.activity .details{padding-left:38px;display:flex;flex-direction:column;font-size:13px;color:#666}.activity .commit{display:flex;align-items:center}.activity .commit .sha,code{font-family:SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace}.activity .commit .sha{margin-right:4px}.activity .commit .message{overflow:hidden;text-overflow:ellipsis;width:360px;white-space:nowrap}svg.calendar{margin-left:13px;margin-top:4px}svg.calendar text{font-size:18px;fill:currentColor}.added{color:#3fb950}.field.license.details{display:flex;justify-content:space-between}.introduction{white-space:normal;margin:0 13px 2px}.achievement{display:flex;margin:4px 0}.achievement .icon{margin:0 4px;width:44px;height:44px}.achievement .text{font-size:12px;color:#666}.achievement .title{font-size:14px;color:#58a6ff}.achievement .gauge.info{color:#58a6ff}.achievement .value{background-color:#58a6ff26}.achievement.x .title{color:#666}.achievement.x .gauge.info{color:#b0b0b0}.achievement.x .value{background-color:#b0b0b026}.achievement.b .title{color:#9d8fff}.achievement.b .gauge.info{color:#9e91ff}.achievement.b .value{background-color:#9e91ff26}.achievement.a .title{color:#d79533}.achievement.a .gauge.info{color:#e7bd69}.achievement.a .value{background-color:#e7bd6926}.achievement.s .gauge.info,.achievement.s .title{color:#eb355e}.achievement.s .value{background-color:#eb355e26}.achievement.secret .title{color:#ff76cd}.achievement.secret .gauge.info{color:#ff79d1}.achievement.secret .value{background-color:#ff79d126}.achievement .gh,.achievement .value{border:1px solid currentColor;border-radius:16px;font-size:10px;padding:0 5px;white-space:nowrap}.achievement .gauge-arc,.achievement .gauge-base{stroke-width:6}.achievement .value-wrapper{margin-bottom:-50px;margin-top:36px;display:none}.achievement .value{margin-left:46px}.achievements.compact{display:flex;flex-wrap:wrap}.achievements.compact .achievement{flex-direction:column-reverse;align-items:center;width:80px}#metrics-end,.achievements.compact .info{width:100%}.achievements.compact .achievement .title{margin-bottom:2px;text-transform:capitalize;text-align:center}.achievements.compact .achievement .title .prefix{min-height:13px;font-size:10px;display:block;margin-bottom:-.25rem}.achievements.compact .achievement .value-wrapper{display:flex}.achievements.compact .achievement .gh,.achievements.compact .achievement .text{display:none}code{background-color:#7777771f;display:inline-block;border-radius:6px;color:#777;padding:1px 5px;font-size:80%}:root{--color-calendar-graph-day-bg:#ebedf0;--color-calendar-graph-day-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L1-bg:#9be9a8;--color-calendar-graph-day-L2-bg:#40c463;--color-calendar-graph-day-L3-bg:#30a14e;--color-calendar-graph-day-L4-bg:#216e39;--color-calendar-halloween-graph-day-L1-bg:#ffee4a;--color-calendar-halloween-graph-day-L2-bg:#ffc501;--color-calendar-halloween-graph-day-L3-bg:#fe9600;--color-calendar-halloween-graph-day-L4-bg:#03001c;--color-calendar-winter-graph-day-L1-bg:#0a3069;--color-calendar-winter-graph-day-L2-bg:#0969da;--color-calendar-winter-graph-day-L3-bg:#54aeff;--color-calendar-winter-graph-day-L4-bg:#b6e3ff;--color-calendar-graph-day-L4-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L3-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L2-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L1-border:rgba(27,31,35,0.06)}</style>
     <style/>
     <foreignObject x="0" y="0" width="100%" height="100%">
         <div xmlns="http://www.w3.org/1999/xhtml" xmlns:xlink="http://www.w3.org/1999/xlink" class="items-wrapper">
@@ -140,7 +140,7 @@
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                         <path fill-rule="evenodd" d="M2.75 1.5a.25.25 0 00-.25.25v12.5c0 .138.112.25.25.25h10.5a.25.25 0 00.25-.25V4.664a.25.25 0 00-.073-.177l-2.914-2.914a.25.25 0 00-.177-.073H2.75zM1 1.75C1 .784 1.784 0 2.75 0h7.586c.464 0 .909.184 1.237.513l2.914 2.914c.329.328.513.773.513 1.237v9.586A1.75 1.75 0 0113.25 16H2.75A1.75 1.75 0 011 14.25V1.75zm7 1.5a.75.75 0 01.75.75v1.5h1.5a.75.75 0 010 1.5h-1.5v1.5a.75.75 0 01-1.5 0V7h-1.5a.75.75 0 010-1.5h1.5V4A.75.75 0 018 3.25zm-3 8a.75.75 0 01.75-.75h4.5a.75.75 0 010 1.5h-4.5a.75.75 0 01-.75-.75z"/>
                                     </svg>
-                                    66.4k added, 2.83k removed
+                                    6.16k added, 876 removed
                                 </div>
                             </section>
                             <section>
@@ -1335,6 +1335,26 @@
                                 <div class="details">
                                     <div>on branch <span class="code">feat/bedrock-claude-support</span></div>
                                     <div class="commit">
+                                        <div class="sha">#a5dbb00</div>
+                                        <div class="message">Fixed Bedrock provider class to allow Meta models</div>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                        <div class="row fill-width">
+                            <section class="activity">
+                                <div class="field">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
+                                    </svg>
+                                    <div class="content">
+                                        Pushed 1 commit in
+                                        <span class="repo">JGalego/LLMTest_NeedleInAHaystack</span>
+                                    </div>
+                                </div>
+                                <div class="details">
+                                    <div>on branch <span class="code">feat/bedrock-claude-support</span></div>
+                                    <div class="commit">
                                         <div class="sha">#d841a05</div>
                                         <div class="message">Added model_kwargs to CommandArgs dataclass; Updated docs</div>
                                     </div>
@@ -1385,262 +1405,6 @@
                                         <span class="repo">gkamradt/LLMTest_NeedleInAHaystack</span>
                                         to
                                         <span class="repo">JGalego/LLMTest_NeedleInAHaystack</span>
-                                    </div>
-                                </div>
-                            </section>
-                        </div>
-                        <div class="row fill-width">
-                            <section class="activity">
-                                <div class="field">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
-                                    </svg>
-                                    <div class="content">
-                                        Pushed 676 commits in
-                                        <span class="repo">JGalego/langchain</span>
-                                    </div>
-                                </div>
-                                <div class="details">
-                                    <div>on branch <span class="code">master</span></div>
-                                    <div class="commit">
-                                        <div class="sha">#181a033</div>
-                                        <div class="message">infra: poetry run min versions (#17146)
-
-&lt;!-- Thank you for contributing to LangChain!
-
-Please title your PR "&lt;package&gt;: &lt;description&gt;", where &lt;package&gt; is
-whichever of langchain, community, core, experimental, etc. is being
-modified.
-
-Replace this entire comment with:
-  - **Description:** a description of the change, 
-  - **Issue:** the issue # it fixes if applicable,
-  - **Dependencies:** any dependencies required for this change,
-- **Twitter handle:** we announce bigger features on Twitter. If your PR
-gets announced, and you'd like a mention, we'll gladly shout you out!
-
-Please make sure your PR is passing linting and testing before
-submitting. Run `make format`, `make lint` and `make test` from the root
-of the package you've modified to check this locally.
-
-See contribution guidelines for more information on how to write/run
-tests, lint, etc: https://python.langchain.com/docs/contributing/
-
-If you're adding a new integration, please include:
-1. a test for the integration, preferably unit tests that do not rely on
-network access,
-2. an example notebook showing its use. It lives in
-`docs/docs/integrations` directory.
-
-If no one reviews your PR within a few days, please @-mention one of
-@baskaryan, @eyurtsev, @hwchase17.
- --&gt;</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#d397721</div>
-                                        <div class="message">docs: format (#17143)</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#2187268</div>
-                                        <div class="message">infra: fix release (#17142)</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#3e58df4</div>
-                                        <div class="message">mistralai[patch]: release 0.0.4 (#17139)</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#22b6a03</div>
-                                        <div class="message">infra: read min versions (#17135)</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#f881a33</div>
-                                        <div class="message">mistralai[patch]: 16k token batching logic embed (#17136)</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#863f96b</div>
-                                        <div class="message">docs: fix typo in ollama notebook (#17127)
-
-- **Description:** typo fix in ollama notebook</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#42c812a</div>
-                                        <div class="message">API References sorted `Partner libs` menu (#17130)
-
-The `Partner libs` menu is not sorted. Now it is long enough, and items
-should be sorted to simplify a package search.
-- Sorted items in the `Partner libs` menu</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#226f376</div>
-                                        <div class="message">community[patch]: Release 0.0.18 (#17129)
-
-Co-authored-by: Erick Friis &lt;erick@langchain.dev&gt;</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#3706254</div>
-                                        <div class="message">infra: update to cache v4 (#17126)
-
-stop using nodejs 16. Use 20 (stop deprecation annotation on all ci)
-
-Changelog: https://github.com/actions/cache?tab=readme-ov-file#whats-new</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#980e30c</div>
-                                        <div class="message">nvidia-ai-endpoints[patch]: release 0.0.2 (#17125)</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#15bd115</div>
-                                        <div class="message">pinecone[patch]: integration test new namespace (#17121)</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#3ccffa5</div>
-                                        <div class="message">infra: add integration deps to partner lint (#17122)</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#14ff143</div>
-                                        <div class="message">nvidia-trt[patch]: propagate InferenceClientException to the caller. (#16936)
-
-- **Description:**  
- 
-before the change I've got
-
-1. propagate InferenceClientException to the caller.
-2. stop grpc receiver thread on exception 
-
-```
-        for token in result_queue:
-&gt;           result_str += token
-E           TypeError: can only concatenate str (not "InferenceServerException") to str
-
-../../langchain_nvidia_trt/llms.py:207: TypeError
-```
-And stream thread keeps running. 
-
-after the change request thread stops correctly and caller got a root
-cause exception:
-
-```
-E                   tritonclient.utils.InferenceServerException: [request id: 4529729] expected number of inputs between 2 and 3 but got 10 inputs for model 'vllm_model'
-
-../../langchain_nvidia_trt/llms.py:205: InferenceServerException
-```
-
-  - **Issue:** the issue # it fixes if applicable,
-  - **Dependencies:** any dependencies required for this change,
-  - **Twitter handle:** [t.me/mkhl_spb](https://t.me/mkhl_spb)
- 
-I'm not sure about test coverage. Should I setup deep mocks or there's a
-kind of triton stub via testcontainers or so.</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#6af912d</div>
-                                        <div class="message">infra: add pinecone secret (#17120)</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#1ed73f1</div>
-                                        <div class="message">community[minor]: Add SelfQueryRetriever support to PGVector (#16991)
-
-  - **Description:** Add SelfQueryRetriever support to PGVector
-  - **Issue:** -
-  - **Dependencies:** -
-  - **Twitter handle:** -
-
----------
-
-Co-authored-by: Bagatur &lt;baskaryan@gmail.com&gt;</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#cd945e3</div>
-                                        <div class="message">core[patch]: Release 0.1.19 (#17117)</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#ef082c7</div>
-                                        <div class="message">community[minor]: add github file loader to load any github file content b… (#15305)
-
-### Description
-support load any github file content based on file extension.  
-
-Why not use [git
-loader](https://python.langchain.com/docs/integrations/document_loaders/git#load-existing-repository-from-disk)
-?
-git loader clones the whole repo even only interested part of files,
-that's too heavy. This GithubFileLoader only downloads that you are
-interested files.
-
-### Twitter handle
-my twitter: @shufanhaotop
-
----------
-
-Co-authored-by: Hao Fan &lt;h_fan@apple.com&gt;
-Co-authored-by: Bagatur &lt;baskaryan@gmail.com&gt;</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#ac662b3</div>
-                                        <div class="message">docs: Fix typo in amadeus.ipynb (#16916)
-
-Description: "enviornment should be  environment"? 🤔
-Issue: Typo
-Dependencies: Nope
-Twitter handle: laoazhang</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#eaeb8a5</div>
-                                        <div class="message">langchain[patch]: `output_parser.py` in conversation_chat is customizable (#16945)
-
-**Description:**
-With this modification, users can customize the `FORMAT_INSTRUCTIONS`
-template, allowing them to create their own prompts
-
-As it is happening in
-[this](https://github.com/langchain-ai/langchain/issues/10721) issue,
-the `FORMAT_INSTRUCTIONS` is not customizable for the output parser,
-unless you create your own class `ConvoOutputParser`. To avoid this, a
-modification was done, creating a `format_instruction` variable that
-users can customize with ease after initialize the agent.
-
-For example:
-```
-agent = initialize_agent(
-    agent = AgentType.CHAT_CONVERSATIONAL_REACT_DESCRIPTION,
-    tools = tools,
-    llm = llm_agent,
-    verbose = True,
-    max_iterations = 3,
-    early_stopping_method = 'generate',
-    memory = b_w_memory,
-    handle_parsing_errors = True,
-    agent_kwargs={
-        'system_message':PREFIX,
-        'human_message':SUFFIX,
-        'template_tool_response':TEMPLATE_TOOL_RESPONSE,
-        }
-)
-agent.agent.output_parser.format_instructions = "MY CUSTOM FORMAT INSTRUCTIONS"
-print(agent.agent.output_parser.get_format_instructions())
-MY CUSTOM FORMAT INSTRUCTIONS
-```
-
-Other parameters like `system_message`, `human_message`, or
-`template_tool_response` are already customizable and with this PR, the
-last parameter `FORMAT_INSTRUCTIONS` in
-`langchain.agents.conversational_chat.prompt` can be modified.
-
-
-**Issue:**
-https://github.com/langchain-ai/langchain/issues/10721
-
-**Dependencies:**
-No new dependencies required for this change
-
-**Twitter handle:**
-With my github user is enough. Thanks
-
-I hope you accept my PR.
-
----------
-
-Co-authored-by: Bagatur &lt;baskaryan@gmail.com&gt;</div>
                                     </div>
                                 </div>
                             </section>
@@ -1901,7 +1665,7 @@ Co-authored-by: Bagatur &lt;baskaryan@gmail.com&gt;</div>
             </section>
             <footer>
                 <span>These metrics do not include all private contributions</span>
-                <span>Last updated 14 Mar 2024, 12:20:55 (timezone Europe/Lisbon) with lowlighter/metrics@3.34.0</span>
+                <span>Last updated 14 Mar 2024, 13:12:41 (timezone Europe/Lisbon) with lowlighter/metrics@3.34.0</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
