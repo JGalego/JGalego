@@ -6,10 +6,13 @@ A self-contained Python script that generates beautiful GitHub contribution metr
 using the GitHub GraphQL API.
 """
 
+# Standard imports
 import os
 import datetime
+
 from collections import Counter
-from math import pi, cos, sin
+
+# Library imports
 import requests
 
 GITHUB_API_URL = "https://api.github.com/graphql"
@@ -239,7 +242,6 @@ def fetch_own_repositories():
 def get_language_stats(repos):
     """Aggregate language usage statistics"""
     lang_counter = Counter()
-    lang_colors = {}
     for repo in repos:
         for lang in repo["repository"]["languages"]["edges"]:
             name = lang["node"]["name"]
@@ -247,9 +249,7 @@ def get_language_stats(repos):
             if name in EXCLUDED_LANGUAGES:
                 continue
             size = lang["size"]
-            color = lang["node"].get("color", "#cccccc")
             lang_counter[name] += size
-            lang_colors[name] = color
     top_langs = lang_counter.most_common(10)
     total = sum(lang_counter.values())
     if total == 0:
@@ -257,41 +257,20 @@ def get_language_stats(repos):
     # Convert to percentages
     top_langs_percent = [(name, round(value / total * 100, 2))
                          for name, value in top_langs]
-    return top_langs_percent, lang_colors
+    return top_langs_percent
 
 
-def pie_chart_svg(data, colors, size=200):
-    """Generate SVG pie chart"""
-    svg = [f'<svg width="{size}" height="{size}" viewBox="0 0 {size} {size}" '
-           'xmlns="http://www.w3.org/2000/svg">']
-    cx, cy, r = size // 2, size // 2, size // 2 - 10
-    start_angle = 0
-    angles = [v / 100 * 360 for _, v in data]  # v is already percent
+def create_language_visualization(data):
+    """Create language visualization optimized for skewed distributions"""
+    lines = []
 
-    for i, (lang, percent) in enumerate(data):
-        end_angle = start_angle + angles[i]
-        x1 = cx + r * cos(pi * start_angle / 180)
-        y1 = cy + r * sin(pi * start_angle / 180)
-        x2 = cx + r * cos(pi * end_angle / 180)
-        y2 = cy + r * sin(pi * end_angle / 180)
-        large_arc = 1 if angles[i] > 180 else 0
-        color = colors.get(lang, "#cccccc")
-        path = f"M{cx},{cy} L{x1},{y1} A{r},{r} 0 {large_arc},1 {x2},{y2} Z"
-        svg.append(f'<path d="{path}" fill="{color}" stroke="#fff" stroke-width="1"/>')
+    # For highly skewed data like use proportional blocks
+    for lang, percent in data:
+        block_count = max(1, int(round(percent)))
+        blocks = "█" * block_count
+        lines.append(f"**{lang}** {percent}% `{blocks}`")
 
-        # Add percentage label only if >= 5%
-        if percent >= 5:
-            mid_angle = start_angle + angles[i] / 2
-            label_x = cx + (r - 30) * cos(pi * mid_angle / 180)
-            label_y = cy + (r - 30) * sin(pi * mid_angle / 180)
-            svg.append(f'<text x="{label_x:.1f}" y="{label_y:.1f}" '
-                      f'font-size="12" text-anchor="middle" '
-                      f'alignment-baseline="middle">{percent}%</text>')
-
-        start_angle = end_angle
-
-    svg.append('</svg>')
-    return "\n".join(svg)
+    return "\n".join(lines)
 
 
 def main():
@@ -322,13 +301,13 @@ def main():
             return
 
         notable = get_notable_repos(repos)
-        top_langs, lang_colors = get_language_stats(repos)
+        top_langs = get_language_stats(repos)
 
         if not top_langs:
             print("No language data found.")
             return
 
-        svg = pie_chart_svg(top_langs, lang_colors)
+        language_visualization = create_language_visualization(top_langs)
 
         # Markdown output
         with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
@@ -381,16 +360,9 @@ def main():
             if EXCLUDED_LANGUAGES:
                 excluded_str = ", ".join(EXCLUDED_LANGUAGES)
                 f.write(f"*Excluding: {excluded_str}*\n\n")
-            f.write(f'<div align="center">\n{svg}\n</div>\n')
-            # Legend below chart
-            f.write("\n<table align='center'>\n")
-            f.write("<tr><th>🎨 Color</th><th>💻 Language</th><th>📈 Percent</th></tr>\n")
-            for lang, percent in top_langs:
-                color = lang_colors.get(lang, "#cccccc")
-                f.write(f"<tr><td><span style='display:inline-block;width:16px;"
-                        f"height:16px;background:{color};border-radius:3px;'></span></td>"
-                        f"<td>{lang}</td><td>{percent}%</td></tr>\n")
-            f.write("</table>\n")
+
+            # Write the language visualization
+            f.write(f"{language_visualization}\n\n")
 
         print(f"✅ Generated {OUTPUT_FILE} successfully!")
 
