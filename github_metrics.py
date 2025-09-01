@@ -261,14 +261,37 @@ def get_language_stats(repos):
 
 
 def create_language_visualization(data):
-    """Create language visualization optimized for skewed distributions"""
-    lines = []
+    """Create language visualization as a clean list with logos"""
+    # Language color mapping (GitHub language colors)
+    language_colors = {
+        'Python': '#3572A5',
+        'JavaScript': '#f1e05a',
+        'TypeScript': '#2b7489',
+        'Java': '#b07219',
+        'C++': '#f34b7d',
+        'C#': '#239120',
+        'C': '#555555',
+        'HTML': '#e34c26',
+        'CSS': '#1572B4',
+        'SCSS': '#c6538c',
+        'Shell': '#89e051',
+        'Rust': '#dea584',
+        'Go': '#00ADD8',
+        'PHP': '#4F5D95',
+        'Ruby': '#701516',
+        'Swift': '#ffac45',
+        'Kotlin': '#F18E33',
+        'Scala': '#c22d40',
+        'Prolog': '#74283c',
+        'Common Lisp': '#3fb68b',
+        'Just': '#384d54'
+    }
 
-    # For highly skewed data like use proportional blocks
+    lines = []
     for lang, percent in data:
-        block_count = max(1, int(round(percent)))
-        blocks = "█" * block_count
-        lines.append(f"**{lang}** {percent}% `{blocks}`")
+        color = language_colors.get(lang, '#586069')  # Default gray color
+        logo = f"<span style='color:{color}'>●</span>"
+        lines.append(f"{logo} {lang} {percent}%")
 
     return "\n".join(lines)
 
@@ -315,8 +338,26 @@ def main():
             header_content = read_header()
             f.write(f"{header_content}\n\n")
 
-            # My Projects section
-            f.write("## 🏗️ My Projects\n\n")
+            # Notable Contributions section
+            f.write("## 🚀 Notable Contributions\n\n")
+
+            for repo in notable:
+                r = repo["repository"]
+                avatar_url = get_repo_avatar(r['owner']['login'])
+                stars = format_number(r['stargazerCount'])
+                forks = format_number(r['forkCount'])
+                description = r.get('description', 'No description available')
+                if description is None:
+                    description = 'No description available'
+
+                f.write(f"### <img src='{avatar_url}' width='20' height='20' "
+                        f"style='vertical-align:middle;'/> "
+                        f"[@{r['owner']['login']}/{r['name']}]({r['url']})\n")
+                f.write(f"⭐ {stars} • 🍴 {forks}\n\n")
+                f.write(f"{description}\n\n")
+
+            # Personal Projects section
+            f.write("## 🏗️ Personal Projects\n\n")
 
             for repo in own_repos[:10]:  # Show top 10 own repos
                 avatar_url = get_repo_avatar(USERNAME)
@@ -339,27 +380,7 @@ def main():
                 f.write(f"⭐ {stars} • 🍴 {forks}{primary_lang}\n\n")
                 f.write(f"{description}\n\n")
 
-            f.write("## 🚀 Notable Contributions\n\n")
-
-            for repo in notable:
-                r = repo["repository"]
-                avatar_url = get_repo_avatar(r['owner']['login'])
-                stars = format_number(r['stargazerCount'])
-                forks = format_number(r['forkCount'])
-                description = r.get('description', 'No description available')
-                if description is None:
-                    description = 'No description available'
-
-                f.write(f"### <img src='{avatar_url}' width='20' height='20' "
-                        f"style='vertical-align:middle;'/> "
-                        f"[@{r['owner']['login']}/{r['name']}]({r['url']})\n")
-                f.write(f"⭐ {stars} • 🍴 {forks}\n\n")
-                f.write(f"{description}\n\n")
-
-            f.write("\n## 📊 Top 10 Languages\n\n")
-            if EXCLUDED_LANGUAGES:
-                excluded_str = ", ".join(EXCLUDED_LANGUAGES)
-                f.write(f"*Excluding: {excluded_str}*\n\n")
+            f.write("## 📊 Top 10 Languages\n\n")
 
             # Write the language visualization
             f.write(f"{language_visualization}\n\n")
