@@ -6,52 +6,52 @@ I am a non-empty set of things and this is my GitHub profile.
 
 ## 🏗️ My Projects
 
-### <img src='https://github.com/JGalego.png?size=20' width='20' height='20' style='vertical-align:middle;'/> [@JGalego/awesome-safety-critical-ai](https://github.com/JGalego/awesome-safety-critical-ai)
+#### <img src='https://github.com/JGalego.png?size=20' width='20' height='20' style='vertical-align:middle;'/> [@JGalego/awesome-safety-critical-ai](https://github.com/JGalego/awesome-safety-critical-ai)
 ⭐ 42 • 🍴 14 • <span style='color:#f1e05a'>●</span> JavaScript
 
 When the stakes are high, intelligence is only half the equation - reliability is the other ⚠️
 
-### <img src='https://github.com/JGalego.png?size=20' width='20' height='20' style='vertical-align:middle;'/> [@JGalego/RAGmap](https://github.com/JGalego/RAGmap)
+#### <img src='https://github.com/JGalego.png?size=20' width='20' height='20' style='vertical-align:middle;'/> [@JGalego/RAGmap](https://github.com/JGalego/RAGmap)
 ⭐ 13 • 🍴 2 • <span style='color:#3572A5'>●</span> Python
 
 A simple Streamlit application to visualize document chunks and queries in embedding space 🗺️🔍
 
-### <img src='https://github.com/JGalego.png?size=20' width='20' height='20' style='vertical-align:middle;'/> [@JGalego/Hack-GraphRAG](https://github.com/JGalego/Hack-GraphRAG)
+#### <img src='https://github.com/JGalego.png?size=20' width='20' height='20' style='vertical-align:middle;'/> [@JGalego/Hack-GraphRAG](https://github.com/JGalego/Hack-GraphRAG)
 ⭐ 10 • 🍴 1
 
 Learn how to run GraphRAG pipelines backed by Amazon Bedrock using LiteLLM proxy 🌄
 
-### <img src='https://github.com/JGalego.png?size=20' width='20' height='20' style='vertical-align:middle;'/> [@JGalego/deploy-langserve-aws](https://github.com/JGalego/deploy-langserve-aws)
+#### <img src='https://github.com/JGalego.png?size=20' width='20' height='20' style='vertical-align:middle;'/> [@JGalego/deploy-langserve-aws](https://github.com/JGalego/deploy-langserve-aws)
 ⭐ 10 • 🍴 2 • <span style='color:#3572A5'>●</span> Python
 
 Learn how to deploy 🦜🔗 LangChain applications with 🦜️🏓 LangServe in minutes on Amazon ECS and AWS Fargate using AWS Copilot.
 
-### <img src='https://github.com/JGalego.png?size=20' width='20' height='20' style='vertical-align:middle;'/> [@JGalego/eeg-bci-tutorial](https://github.com/JGalego/eeg-bci-tutorial)
+#### <img src='https://github.com/JGalego.png?size=20' width='20' height='20' style='vertical-align:middle;'/> [@JGalego/eeg-bci-tutorial](https://github.com/JGalego/eeg-bci-tutorial)
 ⭐ 9 • 🍴 2 • <span style='color:#DA5B0B'>●</span> Jupyter Notebook
 
 EEG-based BCI tutorial based on MNE, SciKit-Learn and PyRiemann
 
-### <img src='https://github.com/JGalego.png?size=20' width='20' height='20' style='vertical-align:middle;'/> [@JGalego/RunNX](https://github.com/JGalego/RunNX)
+#### <img src='https://github.com/JGalego.png?size=20' width='20' height='20' style='vertical-align:middle;'/> [@JGalego/RunNX](https://github.com/JGalego/RunNX)
 ⭐ 8 • 🍴 1 • <span style='color:#dea584'>●</span> Rust
 
 Fast, fearless, and fully verifiable ONNX runtime in Rust 🚀⚡🦀 
 
-### <img src='https://github.com/JGalego.png?size=20' width='20' height='20' style='vertical-align:middle;'/> [@JGalego/genai-kendra-langchain](https://github.com/JGalego/genai-kendra-langchain)
+#### <img src='https://github.com/JGalego.png?size=20' width='20' height='20' style='vertical-align:middle;'/> [@JGalego/genai-kendra-langchain](https://github.com/JGalego/genai-kendra-langchain)
 ⭐ 6 • 🍴 2 • <span style='color:#DA5B0B'>●</span> Jupyter Notebook
 
 GenAI demo with Amazon Kendra, 🦜️🔗 LangChain and Amazon SageMaker JumpStart
 
-### <img src='https://github.com/JGalego.png?size=20' width='20' height='20' style='vertical-align:middle;'/> [@JGalego/cl-bedrock](https://github.com/JGalego/cl-bedrock)
+#### <img src='https://github.com/JGalego.png?size=20' width='20' height='20' style='vertical-align:middle;'/> [@JGalego/cl-bedrock](https://github.com/JGalego/cl-bedrock)
 ⭐ 5 • 🍴 0 • <span style='color:#3fb68b'>●</span> Common Lisp
 
 Common Lisp library for Amazon Bedrock 👽⛰️
 
-### <img src='https://github.com/JGalego.png?size=20' width='20' height='20' style='vertical-align:middle;'/> [@JGalego/LLM-Goblet](https://github.com/JGalego/LLM-Goblet)
+#### <img src='https://github.com/JGalego.png?size=20' width='20' height='20' style='vertical-align:middle;'/> [@JGalego/LLM-Goblet](https://github.com/JGalego/LLM-Goblet)
 ⭐ 4 • 🍴 0 • <span style='color:#384d54'>●</span> Just
 
 LLM proxy application powered by AWS Chalice and LiteLLM
 
-### <img src='https://github.com/JGalego.png?size=20' width='20' height='20' style='vertical-align:middle;'/> [@JGalego/ScrapeGraphAI-Bedrock](https://github.com/JGalego/ScrapeGraphAI-Bedrock)
+#### <img src='https://github.com/JGalego.png?size=20' width='20' height='20' style='vertical-align:middle;'/> [@JGalego/ScrapeGraphAI-Bedrock](https://github.com/JGalego/ScrapeGraphAI-Bedrock)
 ⭐ 4 • 🍴 0 • <span style='color:#3572A5'>●</span> Python
 
 Streamlit app that demonstrates how to integrate Amazon Bedrock ⛰️ and ScrapeGraphAI 🕷️
@@ -144,8 +144,3 @@ Streamlit demo of Scrapegraph-ai for GPT4-hackaton
 <tr><td><span style='display:inline-block;width:16px;height:16px;background:#74283c;border-radius:3px;'></span></td><td>Prolog</td><td>0.54%</td></tr>
 <tr><td><span style='display:inline-block;width:16px;height:16px;background:#89e051;border-radius:3px;'></span></td><td>Shell</td><td>0.43%</td></tr>
 </table>
-## 📈 All-Time Stats
-- **💻 Total Commits:** 761
-- **🔀 Total PRs:** 57
-- **🐛 Total Issues:** 6
-- **📚 Repos Contributed To:** 39

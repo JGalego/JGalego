@@ -354,7 +354,7 @@ def main():
                     lang_color = repo['primaryLanguage']['color']
                     primary_lang = f" • <span style='color:{lang_color}'>●</span> {lang_name}"
 
-                f.write(f"### <img src='{avatar_url}' width='20' height='20' "
+                f.write(f"#### <img src='{avatar_url}' width='20' height='20' "
                         f"style='vertical-align:middle;'/> "
                         f"[@{USERNAME}/{repo['name']}]({repo['url']})\n")
                 f.write(f"⭐ {stars} • 🍴 {forks}{primary_lang}\n\n")
@@ -391,13 +391,6 @@ def main():
                         f"height:16px;background:{color};border-radius:3px;'></span></td>"
                         f"<td>{lang}</td><td>{percent}%</td></tr>\n")
             f.write("</table>\n")
-            f.write("## 📈 All-Time Stats\n")
-            c = contribs
-            f.write(f"- **💻 Total Commits:** {c['totalCommitContributions']:,}\n")
-            f.write(f"- **🔀 Total PRs:** {c['totalPullRequestContributions']:,}\n")
-            f.write(f"- **🐛 Total Issues:** {c['totalIssueContributions']:,}\n")
-            f.write(f"- **📚 Repos Contributed To:** "
-                    f"{c['totalRepositoriesWithContributedCommits']:,}\n")
 
         print(f"✅ Generated {OUTPUT_FILE} successfully!")
 
