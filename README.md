@@ -115,28 +115,28 @@ Streamlit demo of Scrapegraph-ai for GPT4-hackaton
 
 <div align="center">
 <svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-<path d="M100,100 L190.0,100.0 A90,90 0 1,1 102.94000758401714,10.048033065385823 Z" fill="#3572A5" stroke="#fff" stroke-width="1"/>
-<text x="56.9" y="141.7" font-size="12" text-anchor="middle" alignment-baseline="middle">75.52%</text>
-<path d="M100,100 L102.94000758401714,10.048033065385823 A90,90 0 0,1 144.29624425710423,21.65561446590472 Z" fill="#f1e05a" stroke="#fff" stroke-width="1"/>
-<text x="116.2" y="42.2" font-size="12" text-anchor="middle" alignment-baseline="middle">7.67%</text>
-<path d="M100,100 L144.29624425710423,21.65561446590472 A90,90 0 0,1 174.69059077265968,49.78729592990349 Z" fill="#dea584" stroke="#fff" stroke-width="1"/>
-<text x="140.8" y="56.0" font-size="12" text-anchor="middle" alignment-baseline="middle">7.39%</text>
-<path d="M100,100 L174.69059077265968,49.78729592990349 A90,90 0 0,1 183.1923727392416,65.66300656704061 Z" fill="#e34c26" stroke="#fff" stroke-width="1"/>
-<path d="M100,100 L183.1923727392416,65.66300656704061 A90,90 0 0,1 185.43644825503912,71.70488894589693 Z" fill="#b07219" stroke="#fff" stroke-width="1"/>
-<path d="M100,100 L185.43644825503912,71.70488894589693 A90,90 0 0,1 186.88434749499464,76.5242644339093 Z" fill="#c6538c" stroke="#fff" stroke-width="1"/>
-<path d="M100,100 L186.88434749499464,76.5242644339093 A90,90 0 0,1 188.01364058476497,81.1957698637829 Z" fill="#3178c6" stroke="#fff" stroke-width="1"/>
-<path d="M100,100 L188.01364058476497,81.1957698637829 A90,90 0 0,1 188.82916794863962,85.53006836393557 Z" fill="#555555" stroke="#fff" stroke-width="1"/>
-<path d="M100,100 L188.82916794863962,85.53006836393557 A90,90 0 0,1 189.26890222195703,88.5517208242166 Z" fill="#74283c" stroke="#fff" stroke-width="1"/>
-<path d="M100,100 L189.26890222195703,88.5517208242166 A90,90 0 0,1 189.545591528317,90.96744566339063 Z" fill="#89e051" stroke="#fff" stroke-width="1"/>
+<path d="M100,100 L190.0,100.0 A90,90 0 1,1 102.9965254876637,10.049898082315764 Z" fill="#3572A5" stroke="#fff" stroke-width="1"/>
+<text x="56.9" y="141.7" font-size="12" text-anchor="middle" alignment-baseline="middle">75.53%</text>
+<path d="M100,100 L102.9965254876637,10.049898082315764 A90,90 0 0,1 144.29624425710423,21.65561446590472 Z" fill="#f1e05a" stroke="#fff" stroke-width="1"/>
+<text x="116.2" y="42.2" font-size="12" text-anchor="middle" alignment-baseline="middle">7.66%</text>
+<path d="M100,100 L144.29624425710423,21.65561446590472 A90,90 0 0,1 174.65902645895972,49.74037636232884 Z" fill="#dea584" stroke="#fff" stroke-width="1"/>
+<text x="140.7" y="56.0" font-size="12" text-anchor="middle" alignment-baseline="middle">7.38%</text>
+<path d="M100,100 L174.65902645895972,49.74037636232884 A90,90 0 0,1 183.14915792601582,65.55849108714193 Z" fill="#e34c26" stroke="#fff" stroke-width="1"/>
+<path d="M100,100 L183.14915792601582,65.55849108714193 A90,90 0 0,1 185.40082412128243,71.59754870780014 Z" fill="#b07219" stroke="#fff" stroke-width="1"/>
+<path d="M100,100 L185.40082412128243,71.59754870780014 A90,90 0 0,1 186.85477842228,76.41510090721937 Z" fill="#c6538c" stroke="#fff" stroke-width="1"/>
+<path d="M100,100 L186.85477842228,76.41510090721937 A90,90 0 0,1 187.98994100570718,81.08518353744428 Z" fill="#3178c6" stroke="#fff" stroke-width="1"/>
+<path d="M100,100 L187.98994100570718,81.08518353744428 A90,90 0 0,1 188.81091436436446,85.41845379373221 Z" fill="#555555" stroke="#fff" stroke-width="1"/>
+<path d="M100,100 L188.81091436436446,85.41845379373221 A90,90 0 0,1 189.25444540995068,88.4395512819728 Z" fill="#74283c" stroke="#fff" stroke-width="1"/>
+<path d="M100,100 L189.25444540995068,88.4395512819728 A90,90 0 0,1 189.5341701864097,90.85492651582177 Z" fill="#89e051" stroke="#fff" stroke-width="1"/>
 </svg>
 </div>
 
 <table align='center'>
 <tr><th>🎨 Color</th><th>💻 Language</th><th>📈 Percent</th></tr>
-<tr><td><span style='display:inline-block;width:16px;height:16px;background:#3572A5;border-radius:3px;'></span></td><td>Python</td><td>75.52%</td></tr>
-<tr><td><span style='display:inline-block;width:16px;height:16px;background:#f1e05a;border-radius:3px;'></span></td><td>JavaScript</td><td>7.67%</td></tr>
-<tr><td><span style='display:inline-block;width:16px;height:16px;background:#dea584;border-radius:3px;'></span></td><td>Rust</td><td>7.39%</td></tr>
-<tr><td><span style='display:inline-block;width:16px;height:16px;background:#e34c26;border-radius:3px;'></span></td><td>HTML</td><td>3.19%</td></tr>
+<tr><td><span style='display:inline-block;width:16px;height:16px;background:#3572A5;border-radius:3px;'></span></td><td>Python</td><td>75.53%</td></tr>
+<tr><td><span style='display:inline-block;width:16px;height:16px;background:#f1e05a;border-radius:3px;'></span></td><td>JavaScript</td><td>7.66%</td></tr>
+<tr><td><span style='display:inline-block;width:16px;height:16px;background:#dea584;border-radius:3px;'></span></td><td>Rust</td><td>7.38%</td></tr>
+<tr><td><span style='display:inline-block;width:16px;height:16px;background:#e34c26;border-radius:3px;'></span></td><td>HTML</td><td>3.18%</td></tr>
 <tr><td><span style='display:inline-block;width:16px;height:16px;background:#b07219;border-radius:3px;'></span></td><td>Java</td><td>1.14%</td></tr>
 <tr><td><span style='display:inline-block;width:16px;height:16px;background:#c6538c;border-radius:3px;'></span></td><td>SCSS</td><td>0.89%</td></tr>
 <tr><td><span style='display:inline-block;width:16px;height:16px;background:#3178c6;border-radius:3px;'></span></td><td>TypeScript</td><td>0.85%</td></tr>
@@ -145,7 +145,7 @@ Streamlit demo of Scrapegraph-ai for GPT4-hackaton
 <tr><td><span style='display:inline-block;width:16px;height:16px;background:#89e051;border-radius:3px;'></span></td><td>Shell</td><td>0.43%</td></tr>
 </table>
 ## 📈 All-Time Stats
-- **💻 Total Commits:** 759
+- **💻 Total Commits:** 761
 - **🔀 Total PRs:** 57
 - **🐛 Total Issues:** 6
 - **📚 Repos Contributed To:** 39
