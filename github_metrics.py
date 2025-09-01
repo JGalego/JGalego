@@ -324,13 +324,6 @@ def main():
             return
 
         notable = get_notable_repos(repos)
-        top_langs = get_language_stats(repos)
-
-        if not top_langs:
-            print("No language data found.")
-            return
-
-        language_visualization = create_language_visualization(top_langs)
 
         # Markdown output
         with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
@@ -350,10 +343,19 @@ def main():
                 if description is None:
                     description = 'No description available'
 
+                # Get primary language from languages array (largest by size)
+                primary_lang = "Unknown"
+                if r.get('languages') and r['languages'].get('edges'):
+                    languages = r['languages']['edges']
+                    if languages:
+                        # Sort by size and get the largest one
+                        largest_lang = max(languages, key=lambda x: x['size'])
+                        primary_lang = largest_lang['node']['name']
+
                 f.write(f"### <img src='{avatar_url}' width='20' height='20' "
                         f"style='vertical-align:middle;'/> "
                         f"[@{r['owner']['login']}/{r['name']}]({r['url']})\n")
-                f.write(f"⭐ {stars} • 🍴 {forks}\n\n")
+                f.write(f"⭐ {stars} • 🍴 {forks} • {primary_lang}\n\n")
                 f.write(f"{description}\n\n")
 
             # Personal Projects section
@@ -371,19 +373,13 @@ def main():
                 primary_lang = ""
                 if repo.get('primaryLanguage'):
                     lang_name = repo['primaryLanguage']['name']
-                    lang_color = repo['primaryLanguage']['color']
-                    primary_lang = f" • <span style='color:{lang_color}'>●</span> {lang_name}"
+                    primary_lang = f" • {lang_name}"
 
                 f.write(f"#### <img src='{avatar_url}' width='20' height='20' "
                         f"style='vertical-align:middle;'/> "
                         f"[@{USERNAME}/{repo['name']}]({repo['url']})\n")
                 f.write(f"⭐ {stars} • 🍴 {forks}{primary_lang}\n\n")
                 f.write(f"{description}\n\n")
-
-            f.write("## 📊 Top 10 Languages\n\n")
-
-            # Write the language visualization
-            f.write(f"{language_visualization}\n\n")
 
         print(f"✅ Generated {OUTPUT_FILE} successfully!")
 
