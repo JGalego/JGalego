@@ -352,7 +352,7 @@ def main():
                         largest_lang = max(languages, key=lambda x: x['size'])
                         primary_lang = largest_lang['node']['name']
 
-                f.write(f"### <img src='{avatar_url}' width='20' height='20' "
+                f.write(f"#### <img src='{avatar_url}' width='20' height='20' "
                         f"style='vertical-align:middle;'/> "
                         f"[@{r['owner']['login']}/{r['name']}]({r['url']})\n")
                 f.write(f"⭐ {stars} • 🍴 {forks} • {primary_lang}\n\n")
