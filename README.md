@@ -10,52 +10,52 @@ My name is João Galego and I am a nonempty set of things.
 
 ## 🚀 Notable Contributions
 
-### <img src='https://github.com/langchain-ai.png?size=20' width='20' height='20' style='vertical-align:middle;'/> [@langchain-ai/langchain](https://github.com/langchain-ai/langchain)
+#### <img src='https://github.com/langchain-ai.png?size=20' width='20' height='20' style='vertical-align:middle;'/> [@langchain-ai/langchain](https://github.com/langchain-ai/langchain)
 ⭐ 115k • 🍴 18k • Jupyter Notebook
 
 🦜🔗 Build context-aware reasoning applications 🦜🔗
 
-### <img src='https://github.com/huggingface.png?size=20' width='20' height='20' style='vertical-align:middle;'/> [@huggingface/smolagents](https://github.com/huggingface/smolagents)
+#### <img src='https://github.com/huggingface.png?size=20' width='20' height='20' style='vertical-align:middle;'/> [@huggingface/smolagents](https://github.com/huggingface/smolagents)
 ⭐ 22k • 🍴 1k • Python
 
 🤗 smolagents: a barebones library for agents that think in code.
 
-### <img src='https://github.com/ScrapeGraphAI.png?size=20' width='20' height='20' style='vertical-align:middle;'/> [@ScrapeGraphAI/Scrapegraph-ai](https://github.com/ScrapeGraphAI/Scrapegraph-ai)
+#### <img src='https://github.com/ScrapeGraphAI.png?size=20' width='20' height='20' style='vertical-align:middle;'/> [@ScrapeGraphAI/Scrapegraph-ai](https://github.com/ScrapeGraphAI/Scrapegraph-ai)
 ⭐ 21k • 🍴 1k • Python
 
 Python scraper based on AI
 
-### <img src='https://github.com/SWE-agent.png?size=20' width='20' height='20' style='vertical-align:middle;'/> [@SWE-agent/SWE-agent](https://github.com/SWE-agent/SWE-agent)
+#### <img src='https://github.com/SWE-agent.png?size=20' width='20' height='20' style='vertical-align:middle;'/> [@SWE-agent/SWE-agent](https://github.com/SWE-agent/SWE-agent)
 ⭐ 17k • 🍴 1k • Python
 
 SWE-agent takes a GitHub issue and tries to automatically fix it, using your LM of choice. It can also be employed for offensive cybersecurity or competitive coding challenges. [NeurIPS 2024] 
 
-### <img src='https://github.com/huggingface.png?size=20' width='20' height='20' style='vertical-align:middle;'/> [@huggingface/text-embeddings-inference](https://github.com/huggingface/text-embeddings-inference)
+#### <img src='https://github.com/huggingface.png?size=20' width='20' height='20' style='vertical-align:middle;'/> [@huggingface/text-embeddings-inference](https://github.com/huggingface/text-embeddings-inference)
 ⭐ 3k • 🍴 304 • Rust
 
 A blazing fast inference solution for text embeddings models
 
-### <img src='https://github.com/AutoCodeRoverSG.png?size=20' width='20' height='20' style='vertical-align:middle;'/> [@AutoCodeRoverSG/auto-code-rover](https://github.com/AutoCodeRoverSG/auto-code-rover)
+#### <img src='https://github.com/AutoCodeRoverSG.png?size=20' width='20' height='20' style='vertical-align:middle;'/> [@AutoCodeRoverSG/auto-code-rover](https://github.com/AutoCodeRoverSG/auto-code-rover)
 ⭐ 2k • 🍴 325 • Python
 
 A project structure aware autonomous software engineer aiming for autonomous program improvement. Resolved 37.3% tasks (pass@1) in SWE-bench lite and 46.2% tasks (pass@1) in SWE-bench verified with each task costs less than $0.7.
 
-### <img src='https://github.com/langchain-ai.png?size=20' width='20' height='20' style='vertical-align:middle;'/> [@langchain-ai/langserve](https://github.com/langchain-ai/langserve)
-⭐ 2k • 🍴 256 • JavaScript
+#### <img src='https://github.com/langchain-ai.png?size=20' width='20' height='20' style='vertical-align:middle;'/> [@langchain-ai/langserve](https://github.com/langchain-ai/langserve)
+⭐ 2k • 🍴 255 • JavaScript
 
 LangServe 🦜️🏓
 
-### <img src='https://github.com/google-deepmind.png?size=20' width='20' height='20' style='vertical-align:middle;'/> [@google-deepmind/concordia](https://github.com/google-deepmind/concordia)
+#### <img src='https://github.com/google-deepmind.png?size=20' width='20' height='20' style='vertical-align:middle;'/> [@google-deepmind/concordia](https://github.com/google-deepmind/concordia)
 ⭐ 1k • 🍴 214 • Python
 
 A library for generative social simulation
 
-### <img src='https://github.com/aws-samples.png?size=20' width='20' height='20' style='vertical-align:middle;'/> [@aws-samples/amazon-kendra-langchain-extensions](https://github.com/aws-samples/amazon-kendra-langchain-extensions)
+#### <img src='https://github.com/aws-samples.png?size=20' width='20' height='20' style='vertical-align:middle;'/> [@aws-samples/amazon-kendra-langchain-extensions](https://github.com/aws-samples/amazon-kendra-langchain-extensions)
 ⭐ 162 • 🍴 106 • Python
 
 Samples to build Generative AI applications with LangChain and Amazon Kendra
 
-### <img src='https://github.com/ScrapeGraphAI.png?size=20' width='20' height='20' style='vertical-align:middle;'/> [@ScrapeGraphAI/Scrapegraph-demo](https://github.com/ScrapeGraphAI/Scrapegraph-demo)
+#### <img src='https://github.com/ScrapeGraphAI.png?size=20' width='20' height='20' style='vertical-align:middle;'/> [@ScrapeGraphAI/Scrapegraph-demo](https://github.com/ScrapeGraphAI/Scrapegraph-demo)
 ⭐ 103 • 🍴 126 • Python
 
 Streamlit demo of Scrapegraph-ai for GPT4-hackaton
