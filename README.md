@@ -11,7 +11,7 @@ My name is João Galego and I am a nonempty set of things.
 ## 🚀 Notable Contributions
 
 ### <img src='https://github.com/langchain-ai.png?size=20' width='20' height='20' style='vertical-align:middle;'/> [@langchain-ai/langchain](https://github.com/langchain-ai/langchain)
-⭐ 114k • 🍴 18k • Jupyter Notebook
+⭐ 115k • 🍴 18k • Jupyter Notebook
 
 🦜🔗 Build context-aware reasoning applications 🦜🔗
 
@@ -82,15 +82,15 @@ Learn how to run GraphRAG pipelines backed by Amazon Bedrock using LiteLLM proxy
 
 Learn how to deploy 🦜🔗 LangChain applications with 🦜️🏓 LangServe in minutes on Amazon ECS and AWS Fargate using AWS Copilot.
 
+#### <img src='https://github.com/JGalego.png?size=20' width='20' height='20' style='vertical-align:middle;'/> [@JGalego/RunNX](https://github.com/JGalego/RunNX)
+⭐ 9 • 🍴 1 • Rust
+
+Fast, fearless, and fully verifiable ONNX runtime in Rust 🚀⚡🦀 
+
 #### <img src='https://github.com/JGalego.png?size=20' width='20' height='20' style='vertical-align:middle;'/> [@JGalego/eeg-bci-tutorial](https://github.com/JGalego/eeg-bci-tutorial)
 ⭐ 9 • 🍴 2 • Jupyter Notebook
 
 EEG-based BCI tutorial based on MNE, SciKit-Learn and PyRiemann
-
-#### <img src='https://github.com/JGalego.png?size=20' width='20' height='20' style='vertical-align:middle;'/> [@JGalego/RunNX](https://github.com/JGalego/RunNX)
-⭐ 8 • 🍴 1 • Rust
-
-Fast, fearless, and fully verifiable ONNX runtime in Rust 🚀⚡🦀 
 
 #### <img src='https://github.com/JGalego.png?size=20' width='20' height='20' style='vertical-align:middle;'/> [@JGalego/genai-kendra-langchain](https://github.com/JGalego/genai-kendra-langchain)
 ⭐ 6 • 🍴 2 • Jupyter Notebook
