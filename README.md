@@ -31,7 +31,7 @@ Python scraper based on AI
 SWE-agent takes a GitHub issue and tries to automatically fix it, using your LM of choice. It can also be employed for offensive cybersecurity or competitive coding challenges. [NeurIPS 2024] 
 
 #### <img src='https://github.com/huggingface.png?size=20' width='20' height='20' style='vertical-align:middle;'/> [@huggingface/text-embeddings-inference](https://github.com/huggingface/text-embeddings-inference)
-⭐ 3k • 🍴 305 • Rust
+⭐ 3k • 🍴 306 • Rust
 
 A blazing fast inference solution for text embeddings models
 
@@ -41,7 +41,7 @@ A blazing fast inference solution for text embeddings models
 A project structure aware autonomous software engineer aiming for autonomous program improvement. Resolved 37.3% tasks (pass@1) in SWE-bench lite and 46.2% tasks (pass@1) in SWE-bench verified with each task costs less than $0.7.
 
 #### <img src='https://github.com/langchain-ai.png?size=20' width='20' height='20' style='vertical-align:middle;'/> [@langchain-ai/langserve](https://github.com/langchain-ai/langserve)
-⭐ 2k • 🍴 255 • JavaScript
+⭐ 2k • 🍴 256 • JavaScript
 
 LangServe 🦜️🏓
 
@@ -82,15 +82,15 @@ Learn how to run GraphRAG pipelines backed by Amazon Bedrock using LiteLLM proxy
 
 Learn how to deploy 🦜🔗 LangChain applications with 🦜️🏓 LangServe in minutes on Amazon ECS and AWS Fargate using AWS Copilot.
 
+#### <img src='https://github.com/JGalego.png?size=20' width='20' height='20' style='vertical-align:middle;'/> [@JGalego/eeg-bci-tutorial](https://github.com/JGalego/eeg-bci-tutorial)
+⭐ 10 • 🍴 2 • Jupyter Notebook
+
+EEG-based BCI tutorial based on MNE, SciKit-Learn and PyRiemann
+
 #### <img src='https://github.com/JGalego.png?size=20' width='20' height='20' style='vertical-align:middle;'/> [@JGalego/RunNX](https://github.com/JGalego/RunNX)
 ⭐ 9 • 🍴 1 • Rust
 
 Fast, fearless, and fully verifiable ONNX runtime in Rust 🚀⚡🦀 
-
-#### <img src='https://github.com/JGalego.png?size=20' width='20' height='20' style='vertical-align:middle;'/> [@JGalego/eeg-bci-tutorial](https://github.com/JGalego/eeg-bci-tutorial)
-⭐ 9 • 🍴 2 • Jupyter Notebook
-
-EEG-based BCI tutorial based on MNE, SciKit-Learn and PyRiemann
 
 #### <img src='https://github.com/JGalego.png?size=20' width='20' height='20' style='vertical-align:middle;'/> [@JGalego/genai-kendra-langchain](https://github.com/JGalego/genai-kendra-langchain)
 ⭐ 6 • 🍴 2 • Jupyter Notebook
