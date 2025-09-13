@@ -1,10 +1,10 @@
 ## Hi there 👋
 
-My name is João Galego and I am a nonempty set of {things}.
+My name is João Galego and I am a nonempty set of things.
 
 🦹🏼‍♂️ As you're reading this, I'm probably out there doing something mildly heroic, questionably wise, or both.
 
-📫 You can reach me through [LinkedIn](https://www.linkedin.com/in/jgalego/) (fast), ~~send me an email~~ (please don't!) or use a [homer](https://www.rfc-editor.org/rfc/rfc1149).
+📫 You can reach me through [LinkedIn](https://www.linkedin.com/in/jgalego/) (fast), send me an email (please don't!), or use a [carrier pidgeon](https://www.rfc-editor.org/rfc/rfc1149).
 
 <img src="https://i.pinimg.com/originals/84/0d/e5/840de57b4f64aee1e72e4fc208ec6607.gif"/>
 
@@ -31,7 +31,7 @@ Python scraper based on AI
 SWE-agent takes a GitHub issue and tries to automatically fix it, using your LM of choice. It can also be employed for offensive cybersecurity or competitive coding challenges. [NeurIPS 2024] 
 
 #### <img src='https://github.com/huggingface.png?size=20' width='20' height='20' style='vertical-align:middle;'/> [@huggingface/text-embeddings-inference](https://github.com/huggingface/text-embeddings-inference)
-⭐ 3k • 🍴 306 • Rust
+⭐ 4k • 🍴 306 • Rust
 
 A blazing fast inference solution for text embeddings models
 
