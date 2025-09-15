@@ -92,15 +92,15 @@ EEG-based BCI tutorial based on MNE, SciKit-Learn and PyRiemann
 
 Fast, fearless, and fully verifiable ONNX runtime in Rust 🚀⚡🦀 
 
+#### <img src='https://github.com/JGalego.png?size=20' width='20' height='20' style='vertical-align:middle;'/> [@JGalego/cl-bedrock](https://github.com/JGalego/cl-bedrock)
+⭐ 6 • 🍴 0 • Common Lisp
+
+Common Lisp library for Amazon Bedrock 👽⛰️
+
 #### <img src='https://github.com/JGalego.png?size=20' width='20' height='20' style='vertical-align:middle;'/> [@JGalego/genai-kendra-langchain](https://github.com/JGalego/genai-kendra-langchain)
 ⭐ 6 • 🍴 2 • Jupyter Notebook
 
 GenAI demo with Amazon Kendra, 🦜️🔗 LangChain and Amazon SageMaker JumpStart
-
-#### <img src='https://github.com/JGalego.png?size=20' width='20' height='20' style='vertical-align:middle;'/> [@JGalego/cl-bedrock](https://github.com/JGalego/cl-bedrock)
-⭐ 5 • 🍴 0 • Common Lisp
-
-Common Lisp library for Amazon Bedrock 👽⛰️
 
 #### <img src='https://github.com/JGalego.png?size=20' width='20' height='20' style='vertical-align:middle;'/> [@JGalego/LLM-Goblet](https://github.com/JGalego/LLM-Goblet)
 ⭐ 4 • 🍴 0 • Just
