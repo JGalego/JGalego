@@ -13,7 +13,7 @@ My name is João Galego and I am a nonempty set of {`things`}.
 #### <img src='https://github.com/langchain-ai.png?size=20' width='20' height='20' style='vertical-align:middle;'/> [@langchain-ai/langchain](https://github.com/langchain-ai/langchain)
 ⭐ 115k • 🍴 18k • Jupyter Notebook
 
-🦜🔗 Build context-aware reasoning applications 🦜🔗
+🦜🔗 Build context-aware reasoning applications
 
 #### <img src='https://github.com/huggingface.png?size=20' width='20' height='20' style='vertical-align:middle;'/> [@huggingface/smolagents](https://github.com/huggingface/smolagents)
 ⭐ 22k • 🍴 2k • Python
@@ -31,7 +31,7 @@ Python scraper based on AI
 SWE-agent takes a GitHub issue and tries to automatically fix it, using your LM of choice. It can also be employed for offensive cybersecurity or competitive coding challenges. [NeurIPS 2024] 
 
 #### <img src='https://github.com/huggingface.png?size=20' width='20' height='20' style='vertical-align:middle;'/> [@huggingface/text-embeddings-inference](https://github.com/huggingface/text-embeddings-inference)
-⭐ 4k • 🍴 307 • Rust
+⭐ 4k • 🍴 308 • Rust
 
 A blazing fast inference solution for text embeddings models
 
@@ -41,12 +41,12 @@ A blazing fast inference solution for text embeddings models
 A project structure aware autonomous software engineer aiming for autonomous program improvement. Resolved 37.3% tasks (pass@1) in SWE-bench lite and 46.2% tasks (pass@1) in SWE-bench verified with each task costs less than $0.7.
 
 #### <img src='https://github.com/langchain-ai.png?size=20' width='20' height='20' style='vertical-align:middle;'/> [@langchain-ai/langserve](https://github.com/langchain-ai/langserve)
-⭐ 2k • 🍴 256 • JavaScript
+⭐ 2k • 🍴 257 • JavaScript
 
 LangServe 🦜️🏓
 
 #### <img src='https://github.com/google-deepmind.png?size=20' width='20' height='20' style='vertical-align:middle;'/> [@google-deepmind/concordia](https://github.com/google-deepmind/concordia)
-⭐ 1k • 🍴 215 • Python
+⭐ 1k • 🍴 216 • Python
 
 A library for generative social simulation
 
