@@ -11,7 +11,7 @@ My name is João Galego and I am a nonempty set of {`things`}.
 ## 🚀 Notable Contributions
 
 #### <img src='https://github.com/langchain-ai.png?size=20' width='20' height='20' style='vertical-align:middle;'/> [@langchain-ai/langchain](https://github.com/langchain-ai/langchain)
-⭐ 115k • 🍴 19k • Jupyter Notebook
+⭐ 116k • 🍴 19k • Jupyter Notebook
 
 🦜🔗 Build context-aware reasoning applications
 
@@ -46,7 +46,7 @@ A project structure aware autonomous software engineer aiming for autonomous pro
 LangServe 🦜️🏓
 
 #### <img src='https://github.com/google-deepmind.png?size=20' width='20' height='20' style='vertical-align:middle;'/> [@google-deepmind/concordia](https://github.com/google-deepmind/concordia)
-⭐ 1k • 🍴 218 • Python
+⭐ 1k • 🍴 219 • Python
 
 A library for generative social simulation
 
@@ -72,6 +72,11 @@ When the stakes are high, intelligence is only half the equation - reliability i
 
 A simple Streamlit application to visualize document chunks and queries in embedding space 🗺️🔍
 
+#### <img src='https://github.com/JGalego.png?size=20' width='20' height='20' style='vertical-align:middle;'/> [@JGalego/RunNX](https://github.com/JGalego/RunNX)
+⭐ 10 • 🍴 1 • Rust
+
+Fast, fearless, and fully verifiable ONNX runtime in Rust 🚀⚡🦀 
+
 #### <img src='https://github.com/JGalego.png?size=20' width='20' height='20' style='vertical-align:middle;'/> [@JGalego/Hack-GraphRAG](https://github.com/JGalego/Hack-GraphRAG)
 ⭐ 10 • 🍴 1
 
@@ -86,11 +91,6 @@ Learn how to deploy 🦜🔗 LangChain applications with 🦜️🏓 LangServe i
 ⭐ 10 • 🍴 2 • Jupyter Notebook
 
 EEG-based BCI tutorial based on MNE, SciKit-Learn and PyRiemann
-
-#### <img src='https://github.com/JGalego.png?size=20' width='20' height='20' style='vertical-align:middle;'/> [@JGalego/RunNX](https://github.com/JGalego/RunNX)
-⭐ 9 • 🍴 1 • Rust
-
-Fast, fearless, and fully verifiable ONNX runtime in Rust 🚀⚡🦀 
 
 #### <img src='https://github.com/JGalego.png?size=20' width='20' height='20' style='vertical-align:middle;'/> [@JGalego/cl-bedrock](https://github.com/JGalego/cl-bedrock)
 ⭐ 6 • 🍴 0 • Common Lisp
