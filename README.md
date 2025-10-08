@@ -51,7 +51,7 @@ LangServe 🦜️🏓
 A library for generative social simulation
 
 #### <img src='https://github.com/aws-samples.png?size=20' width='20' height='20' style='vertical-align:middle;'/> [@aws-samples/amazon-kendra-langchain-extensions](https://github.com/aws-samples/amazon-kendra-langchain-extensions)
-⭐ 162 • 🍴 106 • Python
+⭐ 163 • 🍴 106 • Python
 
 Samples to build Generative AI applications with LangChain and Amazon Kendra
 
