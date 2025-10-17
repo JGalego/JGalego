@@ -73,9 +73,14 @@ When the stakes are high, intelligence is only half the equation - reliability i
 A simple Streamlit application to visualize document chunks and queries in embedding space 🗺️🔍
 
 #### <img src='https://github.com/JGalego.png?size=20' width='20' height='20' style='vertical-align:middle;'/> [@JGalego/RunNX](https://github.com/JGalego/RunNX)
-⭐ 11 • 🍴 1 • Rust
+⭐ 12 • 🍴 1 • Rust
 
 Fast, fearless, and fully verifiable ONNX runtime in Rust 🚀⚡🦀 
+
+#### <img src='https://github.com/JGalego.png?size=20' width='20' height='20' style='vertical-align:middle;'/> [@JGalego/eeg-bci-tutorial](https://github.com/JGalego/eeg-bci-tutorial)
+⭐ 11 • 🍴 2 • Jupyter Notebook
+
+EEG-based BCI tutorial based on MNE, SciKit-Learn and PyRiemann
 
 #### <img src='https://github.com/JGalego.png?size=20' width='20' height='20' style='vertical-align:middle;'/> [@JGalego/Hack-GraphRAG](https://github.com/JGalego/Hack-GraphRAG)
 ⭐ 10 • 🍴 1
@@ -86,11 +91,6 @@ Learn how to run GraphRAG pipelines backed by Amazon Bedrock using LiteLLM proxy
 ⭐ 10 • 🍴 2 • Python
 
 Learn how to deploy 🦜🔗 LangChain applications with 🦜️🏓 LangServe in minutes on Amazon ECS and AWS Fargate using AWS Copilot.
-
-#### <img src='https://github.com/JGalego.png?size=20' width='20' height='20' style='vertical-align:middle;'/> [@JGalego/eeg-bci-tutorial](https://github.com/JGalego/eeg-bci-tutorial)
-⭐ 10 • 🍴 2 • Jupyter Notebook
-
-EEG-based BCI tutorial based on MNE, SciKit-Learn and PyRiemann
 
 #### <img src='https://github.com/JGalego.png?size=20' width='20' height='20' style='vertical-align:middle;'/> [@JGalego/cl-bedrock](https://github.com/JGalego/cl-bedrock)
 ⭐ 6 • 🍴 0 • Common Lisp
