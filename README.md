@@ -13,7 +13,7 @@ My name is João Galego and I am a nonempty set of {`things`}.
 #### <img src='https://github.com/langchain-ai.png?size=20' width='20' height='20' style='vertical-align:middle;'/> [@langchain-ai/langchain](https://github.com/langchain-ai/langchain)
 ⭐ 118k • 🍴 19k • Python
 
-🦜🔗 Build context-aware reasoning applications
+🦜🔗 The platform for reliable agents.
 
 #### <img src='https://github.com/huggingface.png?size=20' width='20' height='20' style='vertical-align:middle;'/> [@huggingface/smolagents](https://github.com/huggingface/smolagents)
 ⭐ 23k • 🍴 2k • Python
