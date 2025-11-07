@@ -11,7 +11,7 @@ My name is João Galego and I am a nonempty set of {`things`}.
 ## 🚀 Notable Contributions
 
 #### <img src='https://github.com/langchain-ai.png?size=20' width='20' height='20' style='vertical-align:middle;'/> [@langchain-ai/langchain](https://github.com/langchain-ai/langchain)
-⭐ 118k • 🍴 19k • Python
+⭐ 119k • 🍴 19k • Python
 
 🦜🔗 The platform for reliable agents.
 
@@ -46,7 +46,7 @@ A project structure aware autonomous software engineer aiming for autonomous pro
 LangServe 🦜️🏓
 
 #### <img src='https://github.com/google-deepmind.png?size=20' width='20' height='20' style='vertical-align:middle;'/> [@google-deepmind/concordia](https://github.com/google-deepmind/concordia)
-⭐ 1k • 🍴 224 • Python
+⭐ 1k • 🍴 225 • Python
 
 A library for generative social simulation
 
