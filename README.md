@@ -16,7 +16,7 @@ My name is João Galego and I am a nonempty set of {`things`}.
 🦜🔗 The platform for reliable agents.
 
 #### <img src='https://github.com/huggingface.png?size=20' width='20' height='20' style='vertical-align:middle;'/> [@huggingface/smolagents](https://github.com/huggingface/smolagents)
-⭐ 23k • 🍴 2k • Python
+⭐ 24k • 🍴 2k • Python
 
 🤗 smolagents: a barebones library for agents that think in code.
 
@@ -46,7 +46,7 @@ A project structure aware autonomous software engineer aiming for autonomous pro
 LangServe 🦜️🏓
 
 #### <img src='https://github.com/google-deepmind.png?size=20' width='20' height='20' style='vertical-align:middle;'/> [@google-deepmind/concordia](https://github.com/google-deepmind/concordia)
-⭐ 1k • 🍴 228 • Python
+⭐ 1k • 🍴 229 • Python
 
 A library for generative social simulation
 
@@ -68,7 +68,7 @@ Streamlit demo of Scrapegraph-ai for GPT4-hackaton
 When the stakes are high, intelligence is only half the equation - reliability is the other ⚠️
 
 #### <img src='https://github.com/JGalego.png?size=20' width='20' height='20' style='vertical-align:middle;'/> [@JGalego/RunNX](https://github.com/JGalego/RunNX)
-⭐ 13 • 🍴 1 • Rust
+⭐ 14 • 🍴 1 • Rust
 
 Fast, fearless, and fully verifiable ONNX runtime in Rust 🚀⚡🦀 
 
