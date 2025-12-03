@@ -56,14 +56,14 @@ A library for generative social simulation
 Samples to build Generative AI applications with LangChain and Amazon Kendra
 
 #### <img src='https://github.com/ScrapeGraphAI.png?size=20' width='20' height='20' style='vertical-align:middle;'/> [@ScrapeGraphAI/Scrapegraph-demo](https://github.com/ScrapeGraphAI/Scrapegraph-demo)
-⭐ 106 • 🍴 126 • Python
+⭐ 107 • 🍴 126 • Python
 
 Streamlit demo of Scrapegraph-ai for GPT4-hackaton
 
 ## 🏗️ Personal Projects
 
 #### <img src='https://github.com/JGalego.png?size=20' width='20' height='20' style='vertical-align:middle;'/> [@JGalego/awesome-safety-critical-ai](https://github.com/JGalego/awesome-safety-critical-ai)
-⭐ 45 • 🍴 14 • JavaScript
+⭐ 46 • 🍴 14 • JavaScript
 
 When the stakes are high, intelligence is only half the equation - reliability is the other ⚠️
 
