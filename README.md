@@ -78,7 +78,7 @@ Fast, fearless, and fully verifiable ONNX runtime in Rust 🚀⚡🦀
 A simple Streamlit application to visualize document chunks and queries in embedding space 🗺️🔍
 
 #### <img src='https://github.com/JGalego.png?size=20' width='20' height='20' style='vertical-align:middle;'/> [@JGalego/eeg-bci-tutorial](https://github.com/JGalego/eeg-bci-tutorial)
-⭐ 12 • 🍴 2 • Jupyter Notebook
+⭐ 11 • 🍴 2 • Jupyter Notebook
 
 EEG-based BCI tutorial based on MNE, SciKit-Learn and PyRiemann
 
