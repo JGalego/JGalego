@@ -41,7 +41,7 @@ A blazing fast inference solution for text embeddings models
 A project structure aware autonomous software engineer aiming for autonomous program improvement. Resolved 37.3% tasks (pass@1) in SWE-bench lite and 46.2% tasks (pass@1) in SWE-bench verified with each task costs less than $0.7.
 
 #### <img src='https://github.com/langchain-ai.png?size=20' width='20' height='20' style='vertical-align:middle;'/> [@langchain-ai/langserve](https://github.com/langchain-ai/langserve)
-⭐ 2k • 🍴 262 • JavaScript
+⭐ 2k • 🍴 263 • JavaScript
 
 LangServe 🦜️🏓
 
@@ -63,7 +63,7 @@ Streamlit demo of Scrapegraph-ai for GPT4-hackaton
 ## 🏗️ Personal Projects
 
 #### <img src='https://github.com/JGalego.png?size=20' width='20' height='20' style='vertical-align:middle;'/> [@JGalego/awesome-safety-critical-ai](https://github.com/JGalego/awesome-safety-critical-ai)
-⭐ 46 • 🍴 14 • JavaScript
+⭐ 47 • 🍴 14 • JavaScript
 
 When the stakes are high, intelligence is only half the equation - reliability is the other ⚠️
 
