@@ -31,7 +31,7 @@ Python scraper based on AI
 SWE-agent takes a GitHub issue and tries to automatically fix it, using your LM of choice. It can also be employed for offensive cybersecurity or competitive coding challenges. [NeurIPS 2024] 
 
 #### <img src='https://github.com/huggingface.png?size=20' width='20' height='20' style='vertical-align:middle;'/> [@huggingface/text-embeddings-inference](https://github.com/huggingface/text-embeddings-inference)
-⭐ 4k • 🍴 336 • Rust
+⭐ 4k • 🍴 337 • Rust
 
 A blazing fast inference solution for text embeddings models
 
@@ -63,12 +63,12 @@ Streamlit demo of Scrapegraph-ai for GPT4-hackaton
 ## 🏗️ Personal Projects
 
 #### <img src='https://github.com/JGalego.png?size=20' width='20' height='20' style='vertical-align:middle;'/> [@JGalego/awesome-safety-critical-ai](https://github.com/JGalego/awesome-safety-critical-ai)
-⭐ 48 • 🍴 14 • JavaScript
+⭐ 49 • 🍴 14 • JavaScript
 
 When the stakes are high, intelligence is only half the equation - reliability is the other ⚠️
 
 #### <img src='https://github.com/JGalego.png?size=20' width='20' height='20' style='vertical-align:middle;'/> [@JGalego/RunNX](https://github.com/JGalego/RunNX)
-⭐ 15 • 🍴 1 • Rust
+⭐ 16 • 🍴 1 • Rust
 
 Fast, fearless, and fully verifiable ONNX runtime in Rust 🚀⚡🦀 
 
