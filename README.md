@@ -31,22 +31,22 @@ Python scraper based on AI
 SWE-agent takes a GitHub issue and tries to automatically fix it, using your LM of choice. It can also be employed for offensive cybersecurity or competitive coding challenges. [NeurIPS 2024] 
 
 #### <img src='https://github.com/huggingface.png?size=20' width='20' height='20' style='vertical-align:middle;'/> [@huggingface/text-embeddings-inference](https://github.com/huggingface/text-embeddings-inference)
-⭐ 4k • 🍴 338 • Rust
+⭐ 4k • 🍴 339 • Rust
 
 A blazing fast inference solution for text embeddings models
 
 #### <img src='https://github.com/AutoCodeRoverSG.png?size=20' width='20' height='20' style='vertical-align:middle;'/> [@AutoCodeRoverSG/auto-code-rover](https://github.com/AutoCodeRoverSG/auto-code-rover)
-⭐ 3k • 🍴 333 • Python
+⭐ 3k • 🍴 332 • Python
 
 A project structure aware autonomous software engineer aiming for autonomous program improvement. Resolved 37.3% tasks (pass@1) in SWE-bench lite and 46.2% tasks (pass@1) in SWE-bench verified with each task costs less than $0.7.
 
 #### <img src='https://github.com/langchain-ai.png?size=20' width='20' height='20' style='vertical-align:middle;'/> [@langchain-ai/langserve](https://github.com/langchain-ai/langserve)
-⭐ 2k • 🍴 264 • JavaScript
+⭐ 2k • 🍴 263 • JavaScript
 
 LangServe 🦜️🏓
 
 #### <img src='https://github.com/google-deepmind.png?size=20' width='20' height='20' style='vertical-align:middle;'/> [@google-deepmind/concordia](https://github.com/google-deepmind/concordia)
-⭐ 1k • 🍴 251 • Python
+⭐ 1k • 🍴 252 • Python
 
 A library for generative social simulation
 
@@ -63,7 +63,7 @@ Streamlit demo of Scrapegraph-ai for GPT4-hackaton
 ## 🏗️ Personal Projects
 
 #### <img src='https://github.com/JGalego.png?size=20' width='20' height='20' style='vertical-align:middle;'/> [@JGalego/awesome-safety-critical-ai](https://github.com/JGalego/awesome-safety-critical-ai)
-⭐ 50 • 🍴 14 • JavaScript
+⭐ 51 • 🍴 14 • JavaScript
 
 When the stakes are high, intelligence is only half the equation - reliability is the other ⚠️
 
@@ -73,7 +73,7 @@ When the stakes are high, intelligence is only half the equation - reliability i
 Fast, fearless, and fully verifiable ONNX runtime in Rust 🚀⚡🦀 
 
 #### <img src='https://github.com/JGalego.png?size=20' width='20' height='20' style='vertical-align:middle;'/> [@JGalego/RAGmap](https://github.com/JGalego/RAGmap)
-⭐ 13 • 🍴 2 • Python
+⭐ 13 • 🍴 3 • Python
 
 A simple Streamlit application to visualize document chunks and queries in embedding space 🗺️🔍
 
