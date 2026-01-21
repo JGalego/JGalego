@@ -16,7 +16,7 @@ My name is João Galego and I am a nonempty set of {`things`}.
 🦜🔗 The platform for reliable agents.
 
 #### <img src='https://github.com/huggingface.png?size=20' width='20' height='20' style='vertical-align:middle;'/> [@huggingface/smolagents](https://github.com/huggingface/smolagents)
-⭐ 24k • 🍴 2k • Python
+⭐ 25k • 🍴 2k • Python
 
 🤗 smolagents: a barebones library for agents that think in code.
 
