@@ -68,7 +68,7 @@ Streamlit demo of Scrapegraph-ai for GPT4-hackaton
 When the stakes are high, intelligence is only half the equation - reliability is the other ⚠️
 
 #### <img src='https://github.com/JGalego.png?size=20' width='20' height='20' style='vertical-align:middle;'/> [@JGalego/RunNX](https://github.com/JGalego/RunNX)
-⭐ 18 • 🍴 1 • Rust
+⭐ 18 • 🍴 2 • Rust
 
 Fast, fearless, and fully verifiable ONNX runtime in Rust 🚀⚡🦀 
 
