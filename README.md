@@ -26,22 +26,22 @@ My name is João Galego and I am a nonempty set of {`things`}.
 Python scraper based on AI
 
 #### <img src='https://github.com/SWE-agent.png?size=20' width='20' height='20' style='vertical-align:middle;'/> [@SWE-agent/SWE-agent](https://github.com/SWE-agent/SWE-agent)
-⭐ 18k • 🍴 1k • Python
+⭐ 18k • 🍴 2k • Python
 
 SWE-agent takes a GitHub issue and tries to automatically fix it, using your LM of choice. It can also be employed for offensive cybersecurity or competitive coding challenges. [NeurIPS 2024] 
 
 #### <img src='https://github.com/huggingface.png?size=20' width='20' height='20' style='vertical-align:middle;'/> [@huggingface/text-embeddings-inference](https://github.com/huggingface/text-embeddings-inference)
-⭐ 4k • 🍴 361 • Rust
+⭐ 4k • 🍴 362 • Rust
 
 A blazing fast inference solution for text embeddings models
 
 #### <img src='https://github.com/AutoCodeRoverSG.png?size=20' width='20' height='20' style='vertical-align:middle;'/> [@AutoCodeRoverSG/auto-code-rover](https://github.com/AutoCodeRoverSG/auto-code-rover)
-⭐ 3k • 🍴 330 • Python
+⭐ 3k • 🍴 329 • Python
 
 A project structure aware autonomous software engineer aiming for autonomous program improvement. Resolved 37.3% tasks (pass@1) in SWE-bench lite and 46.2% tasks (pass@1) in SWE-bench verified with each task costs less than $0.7.
 
 #### <img src='https://github.com/langchain-ai.png?size=20' width='20' height='20' style='vertical-align:middle;'/> [@langchain-ai/langserve](https://github.com/langchain-ai/langserve)
-⭐ 2k • 🍴 267 • JavaScript
+⭐ 2k • 🍴 265 • JavaScript
 
 LangServe 🦜️🏓
 
@@ -78,7 +78,7 @@ Fast, fearless, and fully verifiable ONNX runtime in Rust 🚀⚡🦀
 A simple Streamlit application to visualize document chunks and queries in embedding space 🗺️🔍
 
 #### <img src='https://github.com/JGalego.png?size=20' width='20' height='20' style='vertical-align:middle;'/> [@JGalego/eeg-bci-tutorial](https://github.com/JGalego/eeg-bci-tutorial)
-⭐ 12 • 🍴 2 • Jupyter Notebook
+⭐ 13 • 🍴 2 • Jupyter Notebook
 
 EEG-based BCI tutorial based on MNE, SciKit-Learn and PyRiemann
 
