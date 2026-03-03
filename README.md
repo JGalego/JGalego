@@ -13,7 +13,7 @@ My name is João Galego and I am a nonempty set of {`things`}.
 #### <img src='https://github.com/langchain-ai.png?size=20' width='20' height='20' style='vertical-align:middle;'/> [@langchain-ai/langchain](https://github.com/langchain-ai/langchain)
 ⭐ 127k • 🍴 21k • Python
 
-🦜🔗 The platform for reliable agents.
+The agent engineering platform
 
 #### <img src='https://github.com/huggingface.png?size=20' width='20' height='20' style='vertical-align:middle;'/> [@huggingface/smolagents](https://github.com/huggingface/smolagents)
 ⭐ 25k • 🍴 2k • Python
@@ -46,12 +46,12 @@ A project structure aware autonomous software engineer aiming for autonomous pro
 LangServe 🦜️🏓
 
 #### <img src='https://github.com/google-deepmind.png?size=20' width='20' height='20' style='vertical-align:middle;'/> [@google-deepmind/concordia](https://github.com/google-deepmind/concordia)
-⭐ 1k • 🍴 286 • Python
+⭐ 1k • 🍴 287 • Python
 
 A library for generative social simulation
 
 #### <img src='https://github.com/aws-samples.png?size=20' width='20' height='20' style='vertical-align:middle;'/> [@aws-samples/amazon-kendra-langchain-extensions](https://github.com/aws-samples/amazon-kendra-langchain-extensions)
-⭐ 163 • 🍴 105 • Python
+⭐ 162 • 🍴 105 • Python
 
 Samples to build Generative AI applications with LangChain and Amazon Kendra
 
