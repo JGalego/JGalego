@@ -36,7 +36,7 @@ SWE-agent takes a GitHub issue and tries to automatically fix it, using your LM 
 A blazing fast inference solution for text embeddings models
 
 #### <img src='https://github.com/AutoCodeRoverSG.png?size=20' width='20' height='20' style='vertical-align:middle;'/> [@AutoCodeRoverSG/auto-code-rover](https://github.com/AutoCodeRoverSG/auto-code-rover)
-⭐ 3k • 🍴 330 • Python
+⭐ 3k • 🍴 331 • Python
 
 A project structure aware autonomous software engineer aiming for autonomous program improvement. Resolved 37.3% tasks (pass@1) in SWE-bench lite and 46.2% tasks (pass@1) in SWE-bench verified with each task costs less than $0.7.
 
@@ -72,15 +72,15 @@ When the stakes are high, intelligence is only half the equation - reliability i
 
 Fast, fearless, and fully verifiable ONNX runtime in Rust 🚀⚡🦀 
 
+#### <img src='https://github.com/JGalego.png?size=20' width='20' height='20' style='vertical-align:middle;'/> [@JGalego/eeg-bci-tutorial](https://github.com/JGalego/eeg-bci-tutorial)
+⭐ 14 • 🍴 2 • Jupyter Notebook
+
+EEG-based BCI tutorial based on MNE, SciKit-Learn and PyRiemann
+
 #### <img src='https://github.com/JGalego.png?size=20' width='20' height='20' style='vertical-align:middle;'/> [@JGalego/RAGmap](https://github.com/JGalego/RAGmap)
 ⭐ 13 • 🍴 3 • Python
 
 A simple Streamlit application to visualize document chunks and queries in embedding space 🗺️🔍
-
-#### <img src='https://github.com/JGalego.png?size=20' width='20' height='20' style='vertical-align:middle;'/> [@JGalego/eeg-bci-tutorial](https://github.com/JGalego/eeg-bci-tutorial)
-⭐ 13 • 🍴 2 • Jupyter Notebook
-
-EEG-based BCI tutorial based on MNE, SciKit-Learn and PyRiemann
 
 #### <img src='https://github.com/JGalego.png?size=20' width='20' height='20' style='vertical-align:middle;'/> [@JGalego/Hack-GraphRAG](https://github.com/JGalego/Hack-GraphRAG)
 ⭐ 10 • 🍴 1
@@ -102,13 +102,13 @@ Common Lisp library for Amazon Bedrock 👽⛰️
 
 GenAI demo with Amazon Kendra, 🦜️🔗 LangChain and Amazon SageMaker JumpStart
 
+#### <img src='https://github.com/JGalego.png?size=20' width='20' height='20' style='vertical-align:middle;'/> [@JGalego/torchlib](https://github.com/JGalego/torchlib)
+⭐ 4 • 🍴 2 • Lean
+
+Deep learning meets Lean4 🔥✅
+
 #### <img src='https://github.com/JGalego.png?size=20' width='20' height='20' style='vertical-align:middle;'/> [@JGalego/LLM-Goblet](https://github.com/JGalego/LLM-Goblet)
 ⭐ 4 • 🍴 0 • Just
 
 LLM proxy application powered by AWS Chalice and LiteLLM
-
-#### <img src='https://github.com/JGalego.png?size=20' width='20' height='20' style='vertical-align:middle;'/> [@JGalego/ScrapeGraphAI-Bedrock](https://github.com/JGalego/ScrapeGraphAI-Bedrock)
-⭐ 4 • 🍴 0 • Python
-
-Streamlit app that demonstrates how to integrate Amazon Bedrock ⛰️ and ScrapeGraphAI 🕷️
 
