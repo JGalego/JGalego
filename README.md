@@ -16,7 +16,7 @@ My name is João Galego and I am a nonempty set of {`things`}.
 The agent engineering platform
 
 #### <img src='https://github.com/huggingface.png?size=20' width='20' height='20' style='vertical-align:middle;'/> [@huggingface/smolagents](https://github.com/huggingface/smolagents)
-⭐ 25k • 🍴 2k • Python
+⭐ 26k • 🍴 2k • Python
 
 🤗 smolagents: a barebones library for agents that think in code.
 
@@ -46,7 +46,7 @@ A project structure aware autonomous software engineer aiming for autonomous pro
 LangServe 🦜️🏓
 
 #### <img src='https://github.com/google-deepmind.png?size=20' width='20' height='20' style='vertical-align:middle;'/> [@google-deepmind/concordia](https://github.com/google-deepmind/concordia)
-⭐ 1k • 🍴 292 • Python
+⭐ 1k • 🍴 291 • Python
 
 A library for generative social simulation
 
