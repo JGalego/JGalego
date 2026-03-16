@@ -63,7 +63,7 @@ Streamlit demo of Scrapegraph-ai for GPT4-hackaton
 ## 🏗️ Personal Projects
 
 #### <img src='https://github.com/JGalego.png?size=20' width='20' height='20' style='vertical-align:middle;'/> [@JGalego/awesome-safety-critical-ai](https://github.com/JGalego/awesome-safety-critical-ai)
-⭐ 59 • 🍴 16 • JavaScript
+⭐ 59 • 🍴 17 • JavaScript
 
 When the stakes are high, intelligence is only half the equation - reliability is the other ⚠️
 
