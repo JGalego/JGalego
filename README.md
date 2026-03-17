@@ -21,7 +21,7 @@ The agent engineering platform
 🤗 smolagents: a barebones library for agents that think in code.
 
 #### <img src='https://github.com/ScrapeGraphAI.png?size=20' width='20' height='20' style='vertical-align:middle;'/> [@ScrapeGraphAI/Scrapegraph-ai](https://github.com/ScrapeGraphAI/Scrapegraph-ai)
-⭐ 22k • 🍴 2k • Python
+⭐ 23k • 🍴 2k • Python
 
 Python scraper based on AI
 
@@ -41,12 +41,12 @@ A blazing fast inference solution for text embeddings models
 A project structure aware autonomous software engineer aiming for autonomous program improvement. Resolved 37.3% tasks (pass@1) in SWE-bench lite and 46.2% tasks (pass@1) in SWE-bench verified with each task costs less than $0.7.
 
 #### <img src='https://github.com/langchain-ai.png?size=20' width='20' height='20' style='vertical-align:middle;'/> [@langchain-ai/langserve](https://github.com/langchain-ai/langserve)
-⭐ 2k • 🍴 262 • JavaScript
+⭐ 2k • 🍴 263 • JavaScript
 
 LangServe 🦜️🏓
 
 #### <img src='https://github.com/google-deepmind.png?size=20' width='20' height='20' style='vertical-align:middle;'/> [@google-deepmind/concordia](https://github.com/google-deepmind/concordia)
-⭐ 1k • 🍴 291 • Python
+⭐ 1k • 🍴 292 • Python
 
 A library for generative social simulation
 
