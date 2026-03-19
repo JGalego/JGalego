@@ -11,7 +11,7 @@ My name is João Galego and I am a nonempty set of {`things`}.
 ## 🚀 Notable Contributions
 
 #### <img src='https://github.com/langchain-ai.png?size=20' width='20' height='20' style='vertical-align:middle;'/> [@langchain-ai/langchain](https://github.com/langchain-ai/langchain)
-⭐ 129k • 🍴 21k • Python
+⭐ 130k • 🍴 21k • Python
 
 The agent engineering platform
 
