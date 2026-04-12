@@ -15,7 +15,7 @@ My name is João Galego and I am a nonempty set of {`things`}. Think of me as a 
 ## 🚀 Notable Contributions
 
 #### <img src='https://github.com/langchain-ai.png?size=20' width='20' height='20' style='vertical-align:middle;'/> [@langchain-ai/langchain](https://github.com/langchain-ai/langchain)
-⭐ 133k • 🍴 21k • Python
+⭐ 133k • 🍴 22k • Python
 
 The agent engineering platform
 
@@ -35,7 +35,7 @@ Python scraper based on AI
 SWE-agent takes a GitHub issue and tries to automatically fix it, using your LM of choice. It can also be employed for offensive cybersecurity or competitive coding challenges. [NeurIPS 2024] 
 
 #### <img src='https://github.com/huggingface.png?size=20' width='20' height='20' style='vertical-align:middle;'/> [@huggingface/text-embeddings-inference](https://github.com/huggingface/text-embeddings-inference)
-⭐ 4k • 🍴 380 • Rust
+⭐ 4k • 🍴 381 • Rust
 
 A blazing fast inference solution for text embeddings models
 
@@ -50,7 +50,7 @@ A project structure aware autonomous software engineer aiming for autonomous pro
 LangServe 🦜️🏓
 
 #### <img src='https://github.com/google-deepmind.png?size=20' width='20' height='20' style='vertical-align:middle;'/> [@google-deepmind/concordia](https://github.com/google-deepmind/concordia)
-⭐ 1k • 🍴 304 • Python
+⭐ 1k • 🍴 303 • Python
 
 A library for generative social simulation
 
