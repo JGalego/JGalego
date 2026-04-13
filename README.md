@@ -50,7 +50,7 @@ A project structure aware autonomous software engineer aiming for autonomous pro
 LangServe 🦜️🏓
 
 #### <img src='https://github.com/google-deepmind.png?size=20' width='20' height='20' style='vertical-align:middle;'/> [@google-deepmind/concordia](https://github.com/google-deepmind/concordia)
-⭐ 1k • 🍴 303 • Python
+⭐ 1k • 🍴 304 • Python
 
 A library for generative social simulation
 
