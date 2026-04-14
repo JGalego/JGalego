@@ -35,7 +35,7 @@ Python scraper based on AI
 SWE-agent takes a GitHub issue and tries to automatically fix it, using your LM of choice. It can also be employed for offensive cybersecurity or competitive coding challenges. [NeurIPS 2024] 
 
 #### <img src='https://github.com/huggingface.png?size=20' width='20' height='20' style='vertical-align:middle;'/> [@huggingface/text-embeddings-inference](https://github.com/huggingface/text-embeddings-inference)
-⭐ 4k • 🍴 381 • Rust
+⭐ 4k • 🍴 380 • Rust
 
 A blazing fast inference solution for text embeddings models
 
@@ -50,12 +50,12 @@ A project structure aware autonomous software engineer aiming for autonomous pro
 LangServe 🦜️🏓
 
 #### <img src='https://github.com/google-deepmind.png?size=20' width='20' height='20' style='vertical-align:middle;'/> [@google-deepmind/concordia](https://github.com/google-deepmind/concordia)
-⭐ 1k • 🍴 304 • Python
+⭐ 1k • 🍴 305 • Python
 
 A library for generative social simulation
 
 #### <img src='https://github.com/aws-samples.png?size=20' width='20' height='20' style='vertical-align:middle;'/> [@aws-samples/amazon-kendra-langchain-extensions](https://github.com/aws-samples/amazon-kendra-langchain-extensions)
-⭐ 163 • 🍴 105 • Python
+⭐ 163 • 🍴 104 • Python
 
 Samples to build Generative AI applications with LangChain and Amazon Kendra
 
@@ -72,7 +72,7 @@ Streamlit demo of Scrapegraph-ai for GPT4-hackaton
 When the stakes are high, intelligence is only half the equation - reliability is the other ⚠️
 
 #### <img src='https://github.com/JGalego.png?size=20' width='20' height='20' style='vertical-align:middle;'/> [@JGalego/RunNX](https://github.com/JGalego/RunNX)
-⭐ 18 • 🍴 2 • Rust
+⭐ 19 • 🍴 2 • Rust
 
 Fast, fearless, and fully verifiable ONNX runtime in Rust 🚀⚡🦀 
 
