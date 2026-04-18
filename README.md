@@ -30,7 +30,7 @@ The agent engineering platform
 Python scraper based on AI
 
 #### <img src='https://github.com/SWE-agent.png?size=20' width='20' height='20' style='vertical-align:middle;'/> [@SWE-agent/SWE-agent](https://github.com/SWE-agent/SWE-agent)
-⭐ 18k • 🍴 2k • Python
+⭐ 19k • 🍴 2k • Python
 
 SWE-agent takes a GitHub issue and tries to automatically fix it, using your LM of choice. It can also be employed for offensive cybersecurity or competitive coding challenges. [NeurIPS 2024] 
 
@@ -40,7 +40,7 @@ SWE-agent takes a GitHub issue and tries to automatically fix it, using your LM 
 A blazing fast inference solution for text embeddings models
 
 #### <img src='https://github.com/AutoCodeRoverSG.png?size=20' width='20' height='20' style='vertical-align:middle;'/> [@AutoCodeRoverSG/auto-code-rover](https://github.com/AutoCodeRoverSG/auto-code-rover)
-⭐ 3k • 🍴 329 • Python
+⭐ 3k • 🍴 328 • Python
 
 A project structure aware autonomous software engineer aiming for autonomous program improvement. Resolved 37.3% tasks (pass@1) in SWE-bench lite and 46.2% tasks (pass@1) in SWE-bench verified with each task costs less than $0.7.
 
