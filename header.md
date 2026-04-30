@@ -1,10 +1,8 @@
-## Hi there 👋
+👋 My name is João Galego, and I am Jack’s set of all sets that don’t contain themselves. <!-- a triple entendre built on top of a polysemous allusion combining mathematical paradox, film quotation, and breed-name wordplay. -->
 
-My name is João Galego and I am a nonempty set of {`things`}. Think of me as a collection of side‑quests wrapped in a human.
+🏗️ I've built ML at [Siemens](https://www.siemens.com/en-us/), wrangled startups at [AWS](https://aws.amazon.com/), and now lead AI at [Critical Software](https://criticalsoftware.com/en).
 
-🏗️ I've built ML at [Siemens](https://www.siemens.com/en-us/), wrangled startups at [AWS](https://aws.amazon.com/), and now lead AI at [Critical Software](https://criticalsoftware.com/en), where "good enough" is **never** good enough.
-
-🌱 I'm on a mission to bring ML to high‑stakes domains — Aviation, Railway, Space, Defense, &c. — and build AI that solves real problems for **real** people.
+🌱 I'm on a mission to bring ML to high‑stakes domains and build AI that solves real problems for **real** people.
 
 🦹🏼‍♂️ As you're reading this, I'm probably out there in the world doing something mildly heroic, questionably wise, or both.
 
