@@ -15,7 +15,7 @@
 #### <img src='https://github.com/langchain-ai.png?size=20' width='20' height='20' style='vertical-align:middle;'/> [@langchain-ai/langchain](https://github.com/langchain-ai/langchain)
 ⭐ 135k • 🍴 22k • Python
 
-The agent engineering platform
+The agent engineering platform. Available in TypeScript!
 
 #### <img src='https://github.com/huggingface.png?size=20' width='20' height='20' style='vertical-align:middle;'/> [@huggingface/smolagents](https://github.com/huggingface/smolagents)
 ⭐ 27k • 🍴 2k • Python
@@ -43,12 +43,12 @@ A blazing fast inference solution for text embeddings models
 A project structure aware autonomous software engineer aiming for autonomous program improvement. Resolved 37.3% tasks (pass@1) in SWE-bench lite and 46.2% tasks (pass@1) in SWE-bench verified with each task costs less than $0.7.
 
 #### <img src='https://github.com/langchain-ai.png?size=20' width='20' height='20' style='vertical-align:middle;'/> [@langchain-ai/langserve](https://github.com/langchain-ai/langserve)
-⭐ 2k • 🍴 269 • JavaScript
+⭐ 2k • 🍴 270 • JavaScript
 
 LangServe 🦜️🏓
 
 #### <img src='https://github.com/google-deepmind.png?size=20' width='20' height='20' style='vertical-align:middle;'/> [@google-deepmind/concordia](https://github.com/google-deepmind/concordia)
-⭐ 1k • 🍴 313 • Python
+⭐ 1k • 🍴 314 • Python
 
 A library for generative social simulation
 
@@ -80,7 +80,7 @@ Fast, fearless, and fully verifiable ONNX runtime in Rust 🚀⚡🦀
 EEG-based BCI tutorial based on MNE, SciKit-Learn and PyRiemann
 
 #### <img src='https://github.com/JGalego.png?size=20' width='20' height='20' style='vertical-align:middle;'/> [@JGalego/RAGmap](https://github.com/JGalego/RAGmap)
-⭐ 13 • 🍴 3 • Python
+⭐ 14 • 🍴 3 • Python
 
 A simple Streamlit application to visualize document chunks and queries in embedding space 🗺️🔍
 
