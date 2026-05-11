@@ -15,7 +15,7 @@
 #### <img src='https://github.com/langchain-ai.png?size=20' width='20' height='20' style='vertical-align:middle;'/> [@langchain-ai/langchain](https://github.com/langchain-ai/langchain)
 ⭐ 136k • 🍴 22k • Python
 
-The agent engineering platform. Available in TypeScript!
+The agent engineering platform.
 
 #### <img src='https://github.com/huggingface.png?size=20' width='20' height='20' style='vertical-align:middle;'/> [@huggingface/smolagents](https://github.com/huggingface/smolagents)
 ⭐ 27k • 🍴 2k • Python
