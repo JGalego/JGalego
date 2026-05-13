@@ -23,7 +23,7 @@ The agent engineering platform.
 🤗 smolagents: a barebones library for agents that think in code.
 
 #### <img src='https://github.com/ScrapeGraphAI.png?size=20' width='20' height='20' style='vertical-align:middle;'/> [@ScrapeGraphAI/Scrapegraph-ai](https://github.com/ScrapeGraphAI/Scrapegraph-ai)
-⭐ 24k • 🍴 2k • Python
+⭐ 25k • 🍴 2k • Python
 
 Python scraper based on AI
 
@@ -58,7 +58,7 @@ A library for generative social simulation
 Samples to build Generative AI applications with LangChain and Amazon Kendra
 
 #### <img src='https://github.com/ScrapeGraphAI.png?size=20' width='20' height='20' style='vertical-align:middle;'/> [@ScrapeGraphAI/Scrapegraph-demo](https://github.com/ScrapeGraphAI/Scrapegraph-demo)
-⭐ 108 • 🍴 125 • Python
+⭐ 109 • 🍴 125 • Python
 
 Streamlit demo of Scrapegraph-ai for GPT4-hackaton
 
