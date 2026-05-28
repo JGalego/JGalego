@@ -33,7 +33,7 @@ Python scraper based on AI
 SWE-agent takes a GitHub issue and tries to automatically fix it, using your LM of choice. It can also be employed for offensive cybersecurity or competitive coding challenges. [NeurIPS 2024] 
 
 #### <img src='https://github.com/huggingface.png?size=20' width='20' height='20' style='vertical-align:middle;'/> [@huggingface/text-embeddings-inference](https://github.com/huggingface/text-embeddings-inference)
-⭐ 4k • 🍴 393 • Rust
+⭐ 4k • 🍴 394 • Rust
 
 A blazing fast inference solution for text embeddings models
 
@@ -48,7 +48,7 @@ A project structure aware autonomous software engineer aiming for autonomous pro
 LangServe 🦜️🏓
 
 #### <img src='https://github.com/google-deepmind.png?size=20' width='20' height='20' style='vertical-align:middle;'/> [@google-deepmind/concordia](https://github.com/google-deepmind/concordia)
-⭐ 1k • 🍴 324 • Python
+⭐ 1k • 🍴 325 • Python
 
 A library for generative social simulation
 
@@ -58,7 +58,7 @@ A library for generative social simulation
 Samples to build Generative AI applications with LangChain and Amazon Kendra
 
 #### <img src='https://github.com/ScrapeGraphAI.png?size=20' width='20' height='20' style='vertical-align:middle;'/> [@ScrapeGraphAI/Scrapegraph-demo](https://github.com/ScrapeGraphAI/Scrapegraph-demo)
-⭐ 110 • 🍴 125 • Python
+⭐ 111 • 🍴 125 • Python
 
 Streamlit demo of Scrapegraph-ai for GPT4-hackaton
 
