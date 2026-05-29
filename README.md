@@ -48,7 +48,7 @@ A project structure aware autonomous software engineer aiming for autonomous pro
 LangServe 🦜️🏓
 
 #### <img src='https://github.com/google-deepmind.png?size=20' width='20' height='20' style='vertical-align:middle;'/> [@google-deepmind/concordia](https://github.com/google-deepmind/concordia)
-⭐ 1k • 🍴 325 • Python
+⭐ 1k • 🍴 327 • Python
 
 A library for generative social simulation
 
@@ -65,7 +65,7 @@ Streamlit demo of Scrapegraph-ai for GPT4-hackaton
 ## 🏗️ Personal Projects
 
 #### <img src='https://github.com/JGalego.png?size=20' width='20' height='20' style='vertical-align:middle;'/> [@JGalego/awesome-safety-critical-ai](https://github.com/JGalego/awesome-safety-critical-ai)
-⭐ 62 • 🍴 17 • JavaScript
+⭐ 63 • 🍴 18 • JavaScript
 
 When the stakes are high, intelligence is only half the equation - reliability is the other ⚠️
 
