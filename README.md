@@ -48,7 +48,7 @@ A project structure aware autonomous software engineer aiming for autonomous pro
 LangServe 🦜️🏓
 
 #### <img src='https://github.com/google-deepmind.png?size=20' width='20' height='20' style='vertical-align:middle;'/> [@google-deepmind/concordia](https://github.com/google-deepmind/concordia)
-⭐ 1k • 🍴 327 • Python
+⭐ 1k • 🍴 328 • Python
 
 A library for generative social simulation
 
@@ -58,7 +58,7 @@ A library for generative social simulation
 Samples to build Generative AI applications with LangChain and Amazon Kendra
 
 #### <img src='https://github.com/ScrapeGraphAI.png?size=20' width='20' height='20' style='vertical-align:middle;'/> [@ScrapeGraphAI/Scrapegraph-demo](https://github.com/ScrapeGraphAI/Scrapegraph-demo)
-⭐ 111 • 🍴 125 • Python
+⭐ 111 • 🍴 124 • Python
 
 Streamlit demo of Scrapegraph-ai for GPT4-hackaton
 
