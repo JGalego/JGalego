@@ -58,7 +58,7 @@ A library for generative social simulation
 Samples to build Generative AI applications with LangChain and Amazon Kendra
 
 #### <img src='https://github.com/ScrapeGraphAI.png?size=20' width='20' height='20' style='vertical-align:middle;'/> [@ScrapeGraphAI/Scrapegraph-demo](https://github.com/ScrapeGraphAI/Scrapegraph-demo)
-⭐ 113 • 🍴 124 • Python
+⭐ 112 • 🍴 124 • Python
 
 Streamlit demo of Scrapegraph-ai for GPT4-hackaton
 
@@ -109,8 +109,8 @@ GenAI demo with Amazon Kendra, 🦜️🔗 LangChain and Amazon SageMaker JumpSt
 
 Deep learning meets Lean4 🔥✅
 
-#### <img src='https://github.com/JGalego.png?size=20' width='20' height='20' style='vertical-align:middle;'/> [@JGalego/LLM-Goblet](https://github.com/JGalego/LLM-Goblet)
-⭐ 4 • 🍴 0 • Just
+#### <img src='https://github.com/JGalego.png?size=20' width='20' height='20' style='vertical-align:middle;'/> [@JGalego/ScrapeGraphAI-Bedrock](https://github.com/JGalego/ScrapeGraphAI-Bedrock)
+⭐ 5 • 🍴 0 • Python
 
-LLM proxy application powered by AWS Chalice and LiteLLM
+Streamlit app that demonstrates how to integrate Amazon Bedrock ⛰️ and ScrapeGraphAI 🕷️
 
