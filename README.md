@@ -23,7 +23,7 @@ The agent engineering platform.
 🤗 smolagents: a barebones library for agents that think in code.
 
 #### <img src='https://github.com/ScrapeGraphAI.png?size=20' width='20' height='20' style='vertical-align:middle;'/> [@ScrapeGraphAI/Scrapegraph-ai](https://github.com/ScrapeGraphAI/Scrapegraph-ai)
-⭐ 26k • 🍴 2k • Python
+⭐ 27k • 🍴 2k • Python
 
 Python scraper based on AI
 
