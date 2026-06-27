@@ -48,7 +48,7 @@ A project structure aware autonomous software engineer aiming for autonomous pro
 LangServe 🦜️🏓
 
 #### <img src='https://github.com/google-deepmind.png?size=20' width='20' height='20' style='vertical-align:middle;'/> [@google-deepmind/concordia](https://github.com/google-deepmind/concordia)
-⭐ 1k • 🍴 337 • Python
+⭐ 1k • 🍴 338 • Python
 
 A library for generative social simulation
 
@@ -58,7 +58,7 @@ A library for generative social simulation
 Samples to build Generative AI applications with LangChain and Amazon Kendra
 
 #### <img src='https://github.com/ScrapeGraphAI.png?size=20' width='20' height='20' style='vertical-align:middle;'/> [@ScrapeGraphAI/Scrapegraph-demo](https://github.com/ScrapeGraphAI/Scrapegraph-demo)
-⭐ 113 • 🍴 122 • Python
+⭐ 114 • 🍴 122 • Python
 
 Streamlit demo of Scrapegraph-ai for GPT4-hackaton
 
@@ -94,6 +94,11 @@ Learn how to run GraphRAG pipelines backed by Amazon Bedrock using LiteLLM proxy
 
 Learn how to deploy 🦜🔗 LangChain applications with 🦜️🏓 LangServe in minutes on Amazon ECS and AWS Fargate using AWS Copilot.
 
+#### <img src='https://github.com/JGalego.png?size=20' width='20' height='20' style='vertical-align:middle;'/> [@JGalego/Bag-of-Tricks](https://github.com/JGalego/Bag-of-Tricks)
+⭐ 6 • 🍴 0 • Python
+
+🎩 a small bag of clever LLM hacks
+
 #### <img src='https://github.com/JGalego.png?size=20' width='20' height='20' style='vertical-align:middle;'/> [@JGalego/cl-bedrock](https://github.com/JGalego/cl-bedrock)
 ⭐ 6 • 🍴 0 • Common Lisp
 
@@ -108,9 +113,4 @@ Streamlit app that demonstrates how to integrate Amazon Bedrock ⛰️ and Scrap
 ⭐ 6 • 🍴 2 • Jupyter Notebook
 
 GenAI demo with Amazon Kendra, 🦜️🔗 LangChain and Amazon SageMaker JumpStart
-
-#### <img src='https://github.com/JGalego.png?size=20' width='20' height='20' style='vertical-align:middle;'/> [@JGalego/torchlib](https://github.com/JGalego/torchlib)
-⭐ 5 • 🍴 2 • Lean
-
-Deep learning meets Lean4 🔥✅
 
