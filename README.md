@@ -17,15 +17,15 @@
 
 The agent engineering platform.
 
-#### <img src='https://github.com/huggingface.png?size=20' width='20' height='20' style='vertical-align:middle;'/> [@huggingface/smolagents](https://github.com/huggingface/smolagents)
-⭐ 28k • 🍴 2k • Python
-
-🤗 smolagents: a barebones library for agents that think in code.
-
 #### <img src='https://github.com/ScrapeGraphAI.png?size=20' width='20' height='20' style='vertical-align:middle;'/> [@ScrapeGraphAI/Scrapegraph-ai](https://github.com/ScrapeGraphAI/Scrapegraph-ai)
 ⭐ 28k • 🍴 2k • Python
 
 Python scraper based on AI
+
+#### <img src='https://github.com/huggingface.png?size=20' width='20' height='20' style='vertical-align:middle;'/> [@huggingface/smolagents](https://github.com/huggingface/smolagents)
+⭐ 28k • 🍴 2k • Python
+
+🤗 smolagents: a barebones library for agents that think in code.
 
 #### <img src='https://github.com/highlightjs.png?size=20' width='20' height='20' style='vertical-align:middle;'/> [@highlightjs/highlight.js](https://github.com/highlightjs/highlight.js)
 ⭐ 24k • 🍴 3k • JavaScript
@@ -43,7 +43,7 @@ SWE-agent takes a GitHub issue and tries to automatically fix it, using your LM 
 A blazing fast inference solution for text embeddings models
 
 #### <img src='https://github.com/AutoCodeRoverSG.png?size=20' width='20' height='20' style='vertical-align:middle;'/> [@AutoCodeRoverSG/auto-code-rover](https://github.com/AutoCodeRoverSG/auto-code-rover)
-⭐ 3k • 🍴 332 • Python
+⭐ 3k • 🍴 334 • Python
 
 A project structure aware autonomous software engineer aiming for autonomous program improvement. Resolved 37.3% tasks (pass@1) in SWE-bench lite and 46.2% tasks (pass@1) in SWE-bench verified with each task costs less than $0.7.
 
@@ -53,7 +53,7 @@ A project structure aware autonomous software engineer aiming for autonomous pro
 LangServe 🦜️🏓
 
 #### <img src='https://github.com/google-deepmind.png?size=20' width='20' height='20' style='vertical-align:middle;'/> [@google-deepmind/concordia](https://github.com/google-deepmind/concordia)
-⭐ 1k • 🍴 345 • Python
+⭐ 1k • 🍴 346 • Python
 
 A library for generative social simulation
 
@@ -65,7 +65,7 @@ Samples to build Generative AI applications with LangChain and Amazon Kendra
 ## 🏗️ Personal Projects
 
 #### <img src='https://github.com/JGalego.png?size=20' width='20' height='20' style='vertical-align:middle;'/> [@JGalego/awesome-safety-critical-ai](https://github.com/JGalego/awesome-safety-critical-ai)
-⭐ 64 • 🍴 19 • JavaScript
+⭐ 64 • 🍴 18 • JavaScript
 
 When the stakes are high, intelligence is only half the equation - reliability is the other ⚠️
 
