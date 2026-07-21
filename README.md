@@ -38,7 +38,7 @@ JavaScript syntax highlighter with language auto-detection and zero dependencies
 SWE-agent takes a GitHub issue and tries to automatically fix it, using your LM of choice. It can also be employed for offensive cybersecurity or competitive coding challenges. [NeurIPS 2024] 
 
 #### <img src='https://github.com/huggingface.png?size=20' width='20' height='20' style='vertical-align:middle;'/> [@huggingface/text-embeddings-inference](https://github.com/huggingface/text-embeddings-inference)
-⭐ 4k • 🍴 415 • Rust
+⭐ 4k • 🍴 416 • Rust
 
 A blazing fast inference solution for text embeddings models
 
@@ -95,7 +95,7 @@ Learn how to run GraphRAG pipelines backed by Amazon Bedrock using LiteLLM proxy
 Learn how to deploy 🦜🔗 LangChain applications with 🦜️🏓 LangServe in minutes on Amazon ECS and AWS Fargate using AWS Copilot.
 
 #### <img src='https://github.com/JGalego.png?size=20' width='20' height='20' style='vertical-align:middle;'/> [@JGalego/Bag-of-Tricks](https://github.com/JGalego/Bag-of-Tricks)
-⭐ 6 • 🍴 0 • Python
+⭐ 6 • 🍴 1 • Python
 
 🎩 a small bag of clever LLM hacks
 
