@@ -331,8 +331,10 @@ def main():
             header_content = read_header()
             f.write(f"{header_content}\n\n")
 
-            # Notable Contributions section
+            # Notable Contributions section (compact table)
             f.write("## 🚀 Notable Contributions\n\n")
+            f.write("| | Repository | Stats | Description |\n")
+            f.write("|---|---|---|---|\n")
 
             for repo in notable:
                 r = repo["repository"]
@@ -342,6 +344,7 @@ def main():
                 description = r.get('description', 'No description available')
                 if description is None:
                     description = 'No description available'
+                description = description.replace("|", "\\|").replace("\n", " ")
 
                 # Get primary language from languages array (largest by size)
                 primary_lang = "Unknown"
@@ -352,14 +355,18 @@ def main():
                         largest_lang = max(languages, key=lambda x: x['size'])
                         primary_lang = largest_lang['node']['name']
 
-                f.write(f"#### <img src='{avatar_url}' width='20' height='20' "
+                f.write(f"| <img src='{avatar_url}' width='20' height='20' "
                         f"style='vertical-align:middle;'/> "
-                        f"[@{r['owner']['login']}/{r['name']}]({r['url']})\n")
-                f.write(f"⭐ {stars} • 🍴 {forks} • {primary_lang}\n\n")
-                f.write(f"{description}\n\n")
+                        f"| [@{r['owner']['login']}/{r['name']}]({r['url']}) "
+                        f"| ⭐ {stars} • 🍴 {forks} • {primary_lang} "
+                        f"| {description} |\n")
 
-            # Personal Projects section
+            f.write("\n")
+
+            # Personal Projects section (compact table)
             f.write("## 🏗️ Personal Projects\n\n")
+            f.write("| | Repository | Stats | Description |\n")
+            f.write("|---|---|---|---|\n")
 
             for repo in own_repos[:10]:  # Show top 10 own repos
                 avatar_url = get_repo_avatar(USERNAME)
@@ -368,6 +375,7 @@ def main():
                 description = repo.get('description', 'No description available')
                 if description is None:
                     description = 'No description available'
+                description = description.replace("|", "\\|").replace("\n", " ")
 
                 # Get primary language with color
                 primary_lang = ""
@@ -375,11 +383,13 @@ def main():
                     lang_name = repo['primaryLanguage']['name']
                     primary_lang = f" • {lang_name}"
 
-                f.write(f"#### <img src='{avatar_url}' width='20' height='20' "
+                f.write(f"| <img src='{avatar_url}' width='20' height='20' "
                         f"style='vertical-align:middle;'/> "
-                        f"[@{USERNAME}/{repo['name']}]({repo['url']})\n")
-                f.write(f"⭐ {stars} • 🍴 {forks}{primary_lang}\n\n")
-                f.write(f"{description}\n\n")
+                        f"| [@{USERNAME}/{repo['name']}]({repo['url']}) "
+                        f"| ⭐ {stars} • 🍴 {forks}{primary_lang} "
+                        f"| {description} |\n")
+
+            f.write("\n")
 
         print(f"✅ Generated {OUTPUT_FILE} successfully!")
 
