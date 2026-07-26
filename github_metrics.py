@@ -26,18 +26,6 @@ EXCLUDED_LANGUAGES = ["Jupyter Notebook"]  # Add languages you want to exclude
 
 HEADERS = {"Authorization": f"Bearer {GITHUB_TOKEN}"}
 
-def get_repo_avatar(owner):
-    """Get the avatar URL for a repository owner"""
-    return f"https://github.com/{owner}.png?size=20"
-
-def format_number(num):
-    """Format numbers in a human-readable way"""
-    if num >= 1000000:
-        return f"{num//1000000}M"
-    if num >= 1000:
-        return f"{num//1000}k"
-    return str(num)
-
 def read_header():
     """Read header file content to use as header"""
     # Priority order: custom HEADER_FILE -> header.md -> README.md -> default
@@ -260,40 +248,65 @@ def get_language_stats(repos):
     return top_langs_percent
 
 
+# GitHub language colors, used for both the language pie chart and repo badges
+LANGUAGE_COLORS = {
+    'Python': '3572A5',
+    'JavaScript': 'f1e05a',
+    'TypeScript': '2b7489',
+    'Java': 'b07219',
+    'C++': 'f34b7d',
+    'C#': '239120',
+    'C': '555555',
+    'HTML': 'e34c26',
+    'CSS': '1572B4',
+    'SCSS': 'c6538c',
+    'Shell': '89e051',
+    'Rust': 'dea584',
+    'Go': '00ADD8',
+    'PHP': '4F5D95',
+    'Ruby': '701516',
+    'Swift': 'ffac45',
+    'Kotlin': 'F18E33',
+    'Scala': 'c22d40',
+    'Prolog': '74283c',
+    'Common Lisp': '3fb68b',
+    'Just': '384d54',
+    'Jupyter Notebook': 'DA5B0B',
+}
+
+
 def create_language_visualization(data):
     """Create language visualization as a clean list with logos"""
-    # Language color mapping (GitHub language colors)
-    language_colors = {
-        'Python': '#3572A5',
-        'JavaScript': '#f1e05a',
-        'TypeScript': '#2b7489',
-        'Java': '#b07219',
-        'C++': '#f34b7d',
-        'C#': '#239120',
-        'C': '#555555',
-        'HTML': '#e34c26',
-        'CSS': '#1572B4',
-        'SCSS': '#c6538c',
-        'Shell': '#89e051',
-        'Rust': '#dea584',
-        'Go': '#00ADD8',
-        'PHP': '#4F5D95',
-        'Ruby': '#701516',
-        'Swift': '#ffac45',
-        'Kotlin': '#F18E33',
-        'Scala': '#c22d40',
-        'Prolog': '#74283c',
-        'Common Lisp': '#3fb68b',
-        'Just': '#384d54'
-    }
-
     lines = []
     for lang, percent in data:
-        color = language_colors.get(lang, '#586069')  # Default gray color
+        color = f"#{LANGUAGE_COLORS.get(lang, '586069')}"  # Default gray color
         logo = f"<span style='color:{color}'>●</span>"
         lines.append(f"{logo} {lang} {percent}%")
 
     return "\n".join(lines)
+
+
+def language_badge(lang):
+    """Build a shields.io static badge for a language"""
+    color = LANGUAGE_COLORS.get(lang, '586069')  # Default gray color
+    label = lang.replace(' ', '%20').replace('-', '--')
+    return f"![{lang}](https://img.shields.io/badge/-{label}-{color}?style=flat-square)"
+
+
+def write_repo_entry(f, owner, name, url, description, lang):
+    """Write a single repo as a badge-based list entry"""
+    if description is None:
+        description = 'No description available'
+    description = description.replace("\n", " ")
+
+    f.write(f"**[@{owner}/{name}]({url})** — {description}\n\n")
+    f.write(f"![Stars](https://img.shields.io/github/stars/{owner}/{name}"
+            f"?style=flat-square&label=%E2%AD%90) "
+            f"![Forks](https://img.shields.io/github/forks/{owner}/{name}"
+            f"?style=flat-square&label=%F0%9F%8D%B4)")
+    if lang:
+        f.write(f" {language_badge(lang)}")
+    f.write("\n\n")
 
 
 def main():
@@ -331,23 +344,15 @@ def main():
             header_content = read_header()
             f.write(f"{header_content}\n\n")
 
-            # Notable Contributions section (compact table)
+            # Notable Contributions section (badge-based list)
             f.write("## 🚀 Notable Contributions\n\n")
-            f.write("| | Repository | Stats | Description |\n")
-            f.write("|---|---|---|---|\n")
 
             for repo in notable:
                 r = repo["repository"]
-                avatar_url = get_repo_avatar(r['owner']['login'])
-                stars = format_number(r['stargazerCount'])
-                forks = format_number(r['forkCount'])
-                description = r.get('description', 'No description available')
-                if description is None:
-                    description = 'No description available'
-                description = description.replace("|", "\\|").replace("\n", " ")
+                description = r.get('description')
 
                 # Get primary language from languages array (largest by size)
-                primary_lang = "Unknown"
+                primary_lang = None
                 if r.get('languages') and r['languages'].get('edges'):
                     languages = r['languages']['edges']
                     if languages:
@@ -355,41 +360,20 @@ def main():
                         largest_lang = max(languages, key=lambda x: x['size'])
                         primary_lang = largest_lang['node']['name']
 
-                f.write(f"| <img src='{avatar_url}' width='20' height='20' "
-                        f"style='vertical-align:middle;'/> "
-                        f"| [@{r['owner']['login']}/{r['name']}]({r['url']}) "
-                        f"| ⭐ {stars} • 🍴 {forks} • {primary_lang} "
-                        f"| {description} |\n")
+                write_repo_entry(f, r['owner']['login'], r['name'], r['url'],
+                                  description, primary_lang)
 
-            f.write("\n")
-
-            # Personal Projects section (compact table)
+            # Personal Projects section (badge-based list)
             f.write("## 🏗️ Personal Projects\n\n")
-            f.write("| | Repository | Stats | Description |\n")
-            f.write("|---|---|---|---|\n")
 
             for repo in own_repos[:10]:  # Show top 10 own repos
-                avatar_url = get_repo_avatar(USERNAME)
-                stars = format_number(repo['stargazerCount'])
-                forks = format_number(repo['forkCount'])
-                description = repo.get('description', 'No description available')
-                if description is None:
-                    description = 'No description available'
-                description = description.replace("|", "\\|").replace("\n", " ")
-
-                # Get primary language with color
-                primary_lang = ""
+                description = repo.get('description')
+                primary_lang = None
                 if repo.get('primaryLanguage'):
-                    lang_name = repo['primaryLanguage']['name']
-                    primary_lang = f" • {lang_name}"
+                    primary_lang = repo['primaryLanguage']['name']
 
-                f.write(f"| <img src='{avatar_url}' width='20' height='20' "
-                        f"style='vertical-align:middle;'/> "
-                        f"| [@{USERNAME}/{repo['name']}]({repo['url']}) "
-                        f"| ⭐ {stars} • 🍴 {forks}{primary_lang} "
-                        f"| {description} |\n")
-
-            f.write("\n")
+                write_repo_entry(f, USERNAME, repo['name'], repo['url'],
+                                  description, primary_lang)
 
         print(f"✅ Generated {OUTPUT_FILE} successfully!")
 

@@ -12,30 +12,84 @@
 
 ## 🚀 Notable Contributions
 
-| | Repository | Stats | Description |
-|---|---|---|---|
-| <img src='https://github.com/langchain-ai.png?size=20' width='20' height='20' style='vertical-align:middle;'/> | [@langchain-ai/langchain](https://github.com/langchain-ai/langchain) | ⭐ 142k • 🍴 23k • Python | The agent engineering platform. |
-| <img src='https://github.com/ScrapeGraphAI.png?size=20' width='20' height='20' style='vertical-align:middle;'/> | [@ScrapeGraphAI/Scrapegraph-ai](https://github.com/ScrapeGraphAI/Scrapegraph-ai) | ⭐ 28k • 🍴 2k • Python | Python scraper based on AI |
-| <img src='https://github.com/huggingface.png?size=20' width='20' height='20' style='vertical-align:middle;'/> | [@huggingface/smolagents](https://github.com/huggingface/smolagents) | ⭐ 28k • 🍴 2k • Python | 🤗 smolagents: a barebones library for agents that think in code. |
-| <img src='https://github.com/highlightjs.png?size=20' width='20' height='20' style='vertical-align:middle;'/> | [@highlightjs/highlight.js](https://github.com/highlightjs/highlight.js) | ⭐ 24k • 🍴 3k • JavaScript | JavaScript syntax highlighter with language auto-detection and zero dependencies. |
-| <img src='https://github.com/SWE-agent.png?size=20' width='20' height='20' style='vertical-align:middle;'/> | [@SWE-agent/SWE-agent](https://github.com/SWE-agent/SWE-agent) | ⭐ 19k • 🍴 2k • Python | SWE-agent takes a GitHub issue and tries to automatically fix it, using your LM of choice. It can also be employed for offensive cybersecurity or competitive coding challenges. [NeurIPS 2024] |
-| <img src='https://github.com/huggingface.png?size=20' width='20' height='20' style='vertical-align:middle;'/> | [@huggingface/text-embeddings-inference](https://github.com/huggingface/text-embeddings-inference) | ⭐ 4k • 🍴 418 • Rust | A blazing fast inference solution for text embeddings models |
-| <img src='https://github.com/AutoCodeRoverSG.png?size=20' width='20' height='20' style='vertical-align:middle;'/> | [@AutoCodeRoverSG/auto-code-rover](https://github.com/AutoCodeRoverSG/auto-code-rover) | ⭐ 3k • 🍴 333 • Python | A project structure aware autonomous software engineer aiming for autonomous program improvement. Resolved 37.3% tasks (pass@1) in SWE-bench lite and 46.2% tasks (pass@1) in SWE-bench verified with each task costs less than $0.7. |
-| <img src='https://github.com/langchain-ai.png?size=20' width='20' height='20' style='vertical-align:middle;'/> | [@langchain-ai/langserve](https://github.com/langchain-ai/langserve) | ⭐ 2k • 🍴 272 • JavaScript | LangServe 🦜️🏓 |
-| <img src='https://github.com/google-deepmind.png?size=20' width='20' height='20' style='vertical-align:middle;'/> | [@google-deepmind/concordia](https://github.com/google-deepmind/concordia) | ⭐ 1k • 🍴 346 • Python | A library for generative social simulation |
-| <img src='https://github.com/aws-samples.png?size=20' width='20' height='20' style='vertical-align:middle;'/> | [@aws-samples/amazon-kendra-langchain-extensions](https://github.com/aws-samples/amazon-kendra-langchain-extensions) | ⭐ 162 • 🍴 104 • Python | Samples to build Generative AI applications with LangChain and Amazon Kendra |
+**[@langchain-ai/langchain](https://github.com/langchain-ai/langchain)** — The agent engineering platform.
+
+![Stars](https://img.shields.io/github/stars/langchain-ai/langchain?style=flat-square&label=%E2%AD%90) ![Forks](https://img.shields.io/github/forks/langchain-ai/langchain?style=flat-square&label=%F0%9F%8D%B4) ![Python](https://img.shields.io/badge/-Python-3572A5?style=flat-square)
+
+**[@ScrapeGraphAI/Scrapegraph-ai](https://github.com/ScrapeGraphAI/Scrapegraph-ai)** — Python scraper based on AI
+
+![Stars](https://img.shields.io/github/stars/ScrapeGraphAI/Scrapegraph-ai?style=flat-square&label=%E2%AD%90) ![Forks](https://img.shields.io/github/forks/ScrapeGraphAI/Scrapegraph-ai?style=flat-square&label=%F0%9F%8D%B4) ![Python](https://img.shields.io/badge/-Python-3572A5?style=flat-square)
+
+**[@huggingface/smolagents](https://github.com/huggingface/smolagents)** — 🤗 smolagents: a barebones library for agents that think in code.
+
+![Stars](https://img.shields.io/github/stars/huggingface/smolagents?style=flat-square&label=%E2%AD%90) ![Forks](https://img.shields.io/github/forks/huggingface/smolagents?style=flat-square&label=%F0%9F%8D%B4) ![Python](https://img.shields.io/badge/-Python-3572A5?style=flat-square)
+
+**[@highlightjs/highlight.js](https://github.com/highlightjs/highlight.js)** — JavaScript syntax highlighter with language auto-detection and zero dependencies.
+
+![Stars](https://img.shields.io/github/stars/highlightjs/highlight.js?style=flat-square&label=%E2%AD%90) ![Forks](https://img.shields.io/github/forks/highlightjs/highlight.js?style=flat-square&label=%F0%9F%8D%B4) ![JavaScript](https://img.shields.io/badge/-JavaScript-f1e05a?style=flat-square)
+
+**[@SWE-agent/SWE-agent](https://github.com/SWE-agent/SWE-agent)** — SWE-agent takes a GitHub issue and tries to automatically fix it, using your LM of choice. It can also be employed for offensive cybersecurity or competitive coding challenges. [NeurIPS 2024]
+
+![Stars](https://img.shields.io/github/stars/SWE-agent/SWE-agent?style=flat-square&label=%E2%AD%90) ![Forks](https://img.shields.io/github/forks/SWE-agent/SWE-agent?style=flat-square&label=%F0%9F%8D%B4) ![Python](https://img.shields.io/badge/-Python-3572A5?style=flat-square)
+
+**[@huggingface/text-embeddings-inference](https://github.com/huggingface/text-embeddings-inference)** — A blazing fast inference solution for text embeddings models
+
+![Stars](https://img.shields.io/github/stars/huggingface/text-embeddings-inference?style=flat-square&label=%E2%AD%90) ![Forks](https://img.shields.io/github/forks/huggingface/text-embeddings-inference?style=flat-square&label=%F0%9F%8D%B4) ![Rust](https://img.shields.io/badge/-Rust-dea584?style=flat-square)
+
+**[@AutoCodeRoverSG/auto-code-rover](https://github.com/AutoCodeRoverSG/auto-code-rover)** — A project structure aware autonomous software engineer aiming for autonomous program improvement. Resolved 37.3% tasks (pass@1) in SWE-bench lite and 46.2% tasks (pass@1) in SWE-bench verified with each task costs less than $0.7.
+
+![Stars](https://img.shields.io/github/stars/AutoCodeRoverSG/auto-code-rover?style=flat-square&label=%E2%AD%90) ![Forks](https://img.shields.io/github/forks/AutoCodeRoverSG/auto-code-rover?style=flat-square&label=%F0%9F%8D%B4) ![Python](https://img.shields.io/badge/-Python-3572A5?style=flat-square)
+
+**[@langchain-ai/langserve](https://github.com/langchain-ai/langserve)** — LangServe 🦜️🏓
+
+![Stars](https://img.shields.io/github/stars/langchain-ai/langserve?style=flat-square&label=%E2%AD%90) ![Forks](https://img.shields.io/github/forks/langchain-ai/langserve?style=flat-square&label=%F0%9F%8D%B4) ![JavaScript](https://img.shields.io/badge/-JavaScript-f1e05a?style=flat-square)
+
+**[@google-deepmind/concordia](https://github.com/google-deepmind/concordia)** — A library for generative social simulation
+
+![Stars](https://img.shields.io/github/stars/google-deepmind/concordia?style=flat-square&label=%E2%AD%90) ![Forks](https://img.shields.io/github/forks/google-deepmind/concordia?style=flat-square&label=%F0%9F%8D%B4) ![Python](https://img.shields.io/badge/-Python-3572A5?style=flat-square)
+
+**[@aws-samples/amazon-kendra-langchain-extensions](https://github.com/aws-samples/amazon-kendra-langchain-extensions)** — Samples to build Generative AI applications with LangChain and Amazon Kendra
+
+![Stars](https://img.shields.io/github/stars/aws-samples/amazon-kendra-langchain-extensions?style=flat-square&label=%E2%AD%90) ![Forks](https://img.shields.io/github/forks/aws-samples/amazon-kendra-langchain-extensions?style=flat-square&label=%F0%9F%8D%B4) ![Python](https://img.shields.io/badge/-Python-3572A5?style=flat-square)
 
 ## 🏗️ Personal Projects
 
-| | Repository | Stats | Description |
-|---|---|---|---|
-| <img src='https://github.com/JGalego.png?size=20' width='20' height='20' style='vertical-align:middle;'/> | [@JGalego/awesome-safety-critical-ai](https://github.com/JGalego/awesome-safety-critical-ai) | ⭐ 64 • 🍴 18 • JavaScript | When the stakes are high, intelligence is only half the equation - reliability is the other ⚠️ |
-| <img src='https://github.com/JGalego.png?size=20' width='20' height='20' style='vertical-align:middle;'/> | [@JGalego/RunNX](https://github.com/JGalego/RunNX) | ⭐ 20 • 🍴 2 • Rust | Fast, fearless, and fully verifiable ONNX runtime in Rust 🚀⚡🦀 |
-| <img src='https://github.com/JGalego.png?size=20' width='20' height='20' style='vertical-align:middle;'/> | [@JGalego/eeg-bci-tutorial](https://github.com/JGalego/eeg-bci-tutorial) | ⭐ 15 • 🍴 2 • Jupyter Notebook | EEG-based BCI tutorial based on MNE, SciKit-Learn and PyRiemann |
-| <img src='https://github.com/JGalego.png?size=20' width='20' height='20' style='vertical-align:middle;'/> | [@JGalego/RAGmap](https://github.com/JGalego/RAGmap) | ⭐ 14 • 🍴 3 • Python | A simple Streamlit application to visualize document chunks and queries in embedding space 🗺️🔍 |
-| <img src='https://github.com/JGalego.png?size=20' width='20' height='20' style='vertical-align:middle;'/> | [@JGalego/Hack-GraphRAG](https://github.com/JGalego/Hack-GraphRAG) | ⭐ 10 • 🍴 1 | Learn how to run GraphRAG pipelines backed by Amazon Bedrock using LiteLLM proxy 🌄 |
-| <img src='https://github.com/JGalego.png?size=20' width='20' height='20' style='vertical-align:middle;'/> | [@JGalego/deploy-langserve-aws](https://github.com/JGalego/deploy-langserve-aws) | ⭐ 10 • 🍴 2 • Python | Learn how to deploy 🦜🔗 LangChain applications with 🦜️🏓 LangServe in minutes on Amazon ECS and AWS Fargate using AWS Copilot. |
-| <img src='https://github.com/JGalego.png?size=20' width='20' height='20' style='vertical-align:middle;'/> | [@JGalego/Bag-of-Tricks](https://github.com/JGalego/Bag-of-Tricks) | ⭐ 6 • 🍴 1 • Python | 🎩 a small bag of clever LLM hacks |
-| <img src='https://github.com/JGalego.png?size=20' width='20' height='20' style='vertical-align:middle;'/> | [@JGalego/cl-bedrock](https://github.com/JGalego/cl-bedrock) | ⭐ 6 • 🍴 0 • Common Lisp | Common Lisp library for Amazon Bedrock 👽⛰️ |
-| <img src='https://github.com/JGalego.png?size=20' width='20' height='20' style='vertical-align:middle;'/> | [@JGalego/ScrapeGraphAI-Bedrock](https://github.com/JGalego/ScrapeGraphAI-Bedrock) | ⭐ 6 • 🍴 0 • Python | Streamlit app that demonstrates how to integrate Amazon Bedrock ⛰️ and ScrapeGraphAI 🕷️ |
-| <img src='https://github.com/JGalego.png?size=20' width='20' height='20' style='vertical-align:middle;'/> | [@JGalego/genai-kendra-langchain](https://github.com/JGalego/genai-kendra-langchain) | ⭐ 6 • 🍴 2 • Jupyter Notebook | GenAI demo with Amazon Kendra, 🦜️🔗 LangChain and Amazon SageMaker JumpStart |
+**[@JGalego/awesome-safety-critical-ai](https://github.com/JGalego/awesome-safety-critical-ai)** — When the stakes are high, intelligence is only half the equation - reliability is the other ⚠️
+
+![Stars](https://img.shields.io/github/stars/JGalego/awesome-safety-critical-ai?style=flat-square&label=%E2%AD%90) ![Forks](https://img.shields.io/github/forks/JGalego/awesome-safety-critical-ai?style=flat-square&label=%F0%9F%8D%B4) ![JavaScript](https://img.shields.io/badge/-JavaScript-f1e05a?style=flat-square)
+
+**[@JGalego/RunNX](https://github.com/JGalego/RunNX)** — Fast, fearless, and fully verifiable ONNX runtime in Rust 🚀⚡🦀
+
+![Stars](https://img.shields.io/github/stars/JGalego/RunNX?style=flat-square&label=%E2%AD%90) ![Forks](https://img.shields.io/github/forks/JGalego/RunNX?style=flat-square&label=%F0%9F%8D%B4) ![Rust](https://img.shields.io/badge/-Rust-dea584?style=flat-square)
+
+**[@JGalego/eeg-bci-tutorial](https://github.com/JGalego/eeg-bci-tutorial)** — EEG-based BCI tutorial based on MNE, SciKit-Learn and PyRiemann
+
+![Stars](https://img.shields.io/github/stars/JGalego/eeg-bci-tutorial?style=flat-square&label=%E2%AD%90) ![Forks](https://img.shields.io/github/forks/JGalego/eeg-bci-tutorial?style=flat-square&label=%F0%9F%8D%B4) ![Jupyter Notebook](https://img.shields.io/badge/-Jupyter%20Notebook-DA5B0B?style=flat-square)
+
+**[@JGalego/RAGmap](https://github.com/JGalego/RAGmap)** — A simple Streamlit application to visualize document chunks and queries in embedding space 🗺️🔍
+
+![Stars](https://img.shields.io/github/stars/JGalego/RAGmap?style=flat-square&label=%E2%AD%90) ![Forks](https://img.shields.io/github/forks/JGalego/RAGmap?style=flat-square&label=%F0%9F%8D%B4) ![Python](https://img.shields.io/badge/-Python-3572A5?style=flat-square)
+
+**[@JGalego/Hack-GraphRAG](https://github.com/JGalego/Hack-GraphRAG)** — Learn how to run GraphRAG pipelines backed by Amazon Bedrock using LiteLLM proxy 🌄
+
+![Stars](https://img.shields.io/github/stars/JGalego/Hack-GraphRAG?style=flat-square&label=%E2%AD%90) ![Forks](https://img.shields.io/github/forks/JGalego/Hack-GraphRAG?style=flat-square&label=%F0%9F%8D%B4)
+
+**[@JGalego/deploy-langserve-aws](https://github.com/JGalego/deploy-langserve-aws)** — Learn how to deploy 🦜🔗 LangChain applications with 🦜️🏓 LangServe in minutes on Amazon ECS and AWS Fargate using AWS Copilot.
+
+![Stars](https://img.shields.io/github/stars/JGalego/deploy-langserve-aws?style=flat-square&label=%E2%AD%90) ![Forks](https://img.shields.io/github/forks/JGalego/deploy-langserve-aws?style=flat-square&label=%F0%9F%8D%B4) ![Python](https://img.shields.io/badge/-Python-3572A5?style=flat-square)
+
+**[@JGalego/Bag-of-Tricks](https://github.com/JGalego/Bag-of-Tricks)** — 🎩 a small bag of clever LLM hacks
+
+![Stars](https://img.shields.io/github/stars/JGalego/Bag-of-Tricks?style=flat-square&label=%E2%AD%90) ![Forks](https://img.shields.io/github/forks/JGalego/Bag-of-Tricks?style=flat-square&label=%F0%9F%8D%B4) ![Python](https://img.shields.io/badge/-Python-3572A5?style=flat-square)
+
+**[@JGalego/cl-bedrock](https://github.com/JGalego/cl-bedrock)** — Common Lisp library for Amazon Bedrock 👽⛰️
+
+![Stars](https://img.shields.io/github/stars/JGalego/cl-bedrock?style=flat-square&label=%E2%AD%90) ![Forks](https://img.shields.io/github/forks/JGalego/cl-bedrock?style=flat-square&label=%F0%9F%8D%B4) ![Common Lisp](https://img.shields.io/badge/-Common%20Lisp-3fb68b?style=flat-square)
+
+**[@JGalego/ScrapeGraphAI-Bedrock](https://github.com/JGalego/ScrapeGraphAI-Bedrock)** — Streamlit app that demonstrates how to integrate Amazon Bedrock ⛰️ and ScrapeGraphAI 🕷️
+
+![Stars](https://img.shields.io/github/stars/JGalego/ScrapeGraphAI-Bedrock?style=flat-square&label=%E2%AD%90) ![Forks](https://img.shields.io/github/forks/JGalego/ScrapeGraphAI-Bedrock?style=flat-square&label=%F0%9F%8D%B4) ![Python](https://img.shields.io/badge/-Python-3572A5?style=flat-square)
+
+**[@JGalego/genai-kendra-langchain](https://github.com/JGalego/genai-kendra-langchain)** — GenAI demo with Amazon Kendra, 🦜️🔗 LangChain and Amazon SageMaker JumpStart
+
+![Stars](https://img.shields.io/github/stars/JGalego/genai-kendra-langchain?style=flat-square&label=%E2%AD%90) ![Forks](https://img.shields.io/github/forks/JGalego/genai-kendra-langchain?style=flat-square&label=%F0%9F%8D%B4) ![Jupyter Notebook](https://img.shields.io/badge/-Jupyter%20Notebook-DA5B0B?style=flat-square)
