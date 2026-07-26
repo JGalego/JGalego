@@ -28,7 +28,7 @@
 
 ![Stars](https://img.shields.io/github/stars/highlightjs/highlight.js?style=flat-square&label=%E2%AD%90) ![Forks](https://img.shields.io/github/forks/highlightjs/highlight.js?style=flat-square&label=%F0%9F%8D%B4) ![JavaScript](https://img.shields.io/badge/-JavaScript-f1e05a?style=flat-square)
 
-**[@SWE-agent/SWE-agent](https://github.com/SWE-agent/SWE-agent)** — SWE-agent takes a GitHub issue and tries to automatically fix it, using your LM of choice. It can also be employed for offensive cybersecurity or competitive coding challenges. [NeurIPS 2024]
+**[@SWE-agent/SWE-agent](https://github.com/SWE-agent/SWE-agent)** — SWE-agent takes a GitHub issue and tries to automatically fix it, using your LM of choice. It can also be employed for offensive cybersecurity or competitive coding challenges. [NeurIPS 2024] 
 
 ![Stars](https://img.shields.io/github/stars/SWE-agent/SWE-agent?style=flat-square&label=%E2%AD%90) ![Forks](https://img.shields.io/github/forks/SWE-agent/SWE-agent?style=flat-square&label=%F0%9F%8D%B4) ![Python](https://img.shields.io/badge/-Python-3572A5?style=flat-square)
 
@@ -58,7 +58,7 @@
 
 ![Stars](https://img.shields.io/github/stars/JGalego/awesome-safety-critical-ai?style=flat-square&label=%E2%AD%90) ![Forks](https://img.shields.io/github/forks/JGalego/awesome-safety-critical-ai?style=flat-square&label=%F0%9F%8D%B4) ![JavaScript](https://img.shields.io/badge/-JavaScript-f1e05a?style=flat-square)
 
-**[@JGalego/RunNX](https://github.com/JGalego/RunNX)** — Fast, fearless, and fully verifiable ONNX runtime in Rust 🚀⚡🦀
+**[@JGalego/RunNX](https://github.com/JGalego/RunNX)** — Fast, fearless, and fully verifiable ONNX runtime in Rust 🚀⚡🦀 
 
 ![Stars](https://img.shields.io/github/stars/JGalego/RunNX?style=flat-square&label=%E2%AD%90) ![Forks](https://img.shields.io/github/forks/JGalego/RunNX?style=flat-square&label=%F0%9F%8D%B4) ![Rust](https://img.shields.io/badge/-Rust-dea584?style=flat-square)
 
@@ -93,3 +93,4 @@
 **[@JGalego/genai-kendra-langchain](https://github.com/JGalego/genai-kendra-langchain)** — GenAI demo with Amazon Kendra, 🦜️🔗 LangChain and Amazon SageMaker JumpStart
 
 ![Stars](https://img.shields.io/github/stars/JGalego/genai-kendra-langchain?style=flat-square&label=%E2%AD%90) ![Forks](https://img.shields.io/github/forks/JGalego/genai-kendra-langchain?style=flat-square&label=%F0%9F%8D%B4) ![Jupyter Notebook](https://img.shields.io/badge/-Jupyter%20Notebook-DA5B0B?style=flat-square)
+
