@@ -10,7 +10,7 @@
 
 📫 **Want to say `HELO`?** Find me on [LinkedIn](https://www.linkedin.com/in/jgalego/) (fast), ~~send me an email~~ (please don't!) or use a [carrier pigeon](https://www.rfc-editor.org/rfc/rfc1149).
 
-<img src="https://i.pinimg.com/originals/84/0d/e5/840de57b4f64aee1e72e4fc208ec6607.gif"/>
+<img src="dino/dino.gif" alt="A Q-learning agent playing the Chrome dino game"/>
 
 ## 🚀 Notable Contributions
 

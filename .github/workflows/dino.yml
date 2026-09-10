@@ -1,0 +1,47 @@
+name: Train Dino Agent
+on:
+  # Allow manual trigger
+  workflow_dispatch:
+  # Retrain when the game, the agent or this workflow change
+  push:
+    branches: ["main"]
+    paths:
+      - "dino/*.py"
+      - "dino/requirements.txt"
+      - ".github/workflows/dino.yml"
+
+jobs:
+  train:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v5
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install -r dino/requirements.txt
+
+      - name: Train agent
+        run: python dino/train.py
+
+      - name: Film agent
+        run: python dino/film.py
+
+      - name: Commit and push changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add dino/dino.gif
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "🦖 Update dino GIF [skip ci]"
+            git pull --rebase  # the metrics workflow may have pushed meanwhile
+            git push
+          fi
