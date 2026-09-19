@@ -1,5 +1,3 @@
-👋 Hey there, I'm João Galego...
-
 🧩 I make things, break things, and occasionally figure out why they broke.
 
 🏗️ I've built ML systems at [Siemens](https://www.siemens.com/en-us/), wrangled startups at [AWS](https://aws.amazon.com/), and now lead AI at [Critical Software](https://criticalsoftware.com/en).
@@ -30,6 +28,10 @@
 
 ![Stars](https://img.shields.io/github/stars/highlightjs/highlight.js?style=flat-square&label=%E2%AD%90) ![Forks](https://img.shields.io/github/forks/highlightjs/highlight.js?style=flat-square&label=%F0%9F%8D%B4) ![JavaScript](https://img.shields.io/badge/-JavaScript-f1e05a?style=flat-square)
 
+**[@bendlang/bend](https://github.com/bendlang/bend)** — Bend 2: a fast language that blocks AI mistakes via proof. Install: curl -fsSL https://bend-lang.com/install.sh | sh
+
+![Stars](https://img.shields.io/github/stars/bendlang/bend?style=flat-square&label=%E2%AD%90) ![Forks](https://img.shields.io/github/forks/bendlang/bend?style=flat-square&label=%F0%9F%8D%B4) ![TypeScript](https://img.shields.io/badge/-TypeScript-2b7489?style=flat-square)
+
 **[@SWE-agent/SWE-agent](https://github.com/SWE-agent/SWE-agent)** — SWE-agent takes a GitHub issue and tries to automatically fix it, using your LM of choice. It can also be employed for offensive cybersecurity or competitive coding challenges. [NeurIPS 2024] 
 
 ![Stars](https://img.shields.io/github/stars/SWE-agent/SWE-agent?style=flat-square&label=%E2%AD%90) ![Forks](https://img.shields.io/github/forks/SWE-agent/SWE-agent?style=flat-square&label=%F0%9F%8D%B4) ![Python](https://img.shields.io/badge/-Python-3572A5?style=flat-square)
@@ -49,10 +51,6 @@
 **[@google-deepmind/concordia](https://github.com/google-deepmind/concordia)** — A library for generative social simulation
 
 ![Stars](https://img.shields.io/github/stars/google-deepmind/concordia?style=flat-square&label=%E2%AD%90) ![Forks](https://img.shields.io/github/forks/google-deepmind/concordia?style=flat-square&label=%F0%9F%8D%B4) ![Python](https://img.shields.io/badge/-Python-3572A5?style=flat-square)
-
-**[@aws-samples/amazon-kendra-langchain-extensions](https://github.com/aws-samples/amazon-kendra-langchain-extensions)** — Samples to build Generative AI applications with LangChain and Amazon Kendra
-
-![Stars](https://img.shields.io/github/stars/aws-samples/amazon-kendra-langchain-extensions?style=flat-square&label=%E2%AD%90) ![Forks](https://img.shields.io/github/forks/aws-samples/amazon-kendra-langchain-extensions?style=flat-square&label=%F0%9F%8D%B4) ![Python](https://img.shields.io/badge/-Python-3572A5?style=flat-square)
 
 ## 🏗️ Personal Projects
 
