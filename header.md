@@ -1,5 +1,3 @@
-👋 Hey there, I'm João Galego...
-
 🧩 I make things, break things, and occasionally figure out why they broke.
 
 🏗️ I've built ML systems at [Siemens](https://www.siemens.com/en-us/), wrangled startups at [AWS](https://aws.amazon.com/), and now lead AI at [Critical Software](https://criticalsoftware.com/en).
