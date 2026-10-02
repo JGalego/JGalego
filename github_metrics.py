@@ -9,6 +9,8 @@ using the GitHub GraphQL API.
 # Standard imports
 import os
 import datetime
+import re
+import textwrap
 
 from collections import Counter
 
@@ -16,10 +18,13 @@ from collections import Counter
 import requests
 
 GITHUB_API_URL = "https://api.github.com/graphql"
+HUGGING_FACE_API_URL = "https://huggingface.co/api"
 GITHUB_TOKEN = os.getenv("GITHUB_TOKEN")
 USERNAME = os.getenv("USERNAME", "JGalego")  # Use env var if available, fallback to JGalego
+HF_USERNAME = os.getenv("HF_USERNAME", USERNAME.lower())
 HEADER_FILE = os.getenv("HEADER_FILE", "header.md")  # Default to header.md, can be overridden
 OUTPUT_FILE = os.getenv("OUTPUT_FILE", "README.md")  # Default to README.md, can be overridden
+GITHUB_ITEM_LIMIT = 6
 
 # Languages to exclude from the pie chart
 EXCLUDED_LANGUAGES = ["Jupyter Notebook"]  # Add languages you want to exclude
@@ -176,12 +181,224 @@ def fetch_repos_and_contributions():
     }
 
 def get_notable_repos(repos):
-    """Get notable repos (by stars/forks)"""
-    # Sort by stars, forks, and your contribution count
-    notable = sorted(repos, key=lambda r: (r["repository"]["stargazerCount"],
+    """Get every contributed repository with more than 1,000 stars."""
+    notable = [repo for repo in repos
+               if repo["repository"]["stargazerCount"] > 1000]
+    return sorted(notable, key=lambda r: (r["repository"]["stargazerCount"],
                                           r["repository"]["forkCount"],
                                           r["contributions"]["totalCount"]), reverse=True)
-    return notable[:10]
+
+
+def fetch_hugging_face_items(resource):
+    """Fetch public models or Spaces owned by the configured Hugging Face user."""
+    response = requests.get(
+        f"{HUGGING_FACE_API_URL}/{resource}",
+        params={"author": HF_USERNAME, "limit": 100, "full": "true"},
+        timeout=30,
+    )
+    response.raise_for_status()
+    items = response.json()
+    if not isinstance(items, list):
+        raise ValueError(f"Unexpected Hugging Face {resource} response")
+    return items
+
+
+def fetch_hugging_face_portfolio():
+    """Fetch the user's public Hugging Face resources and collections."""
+    models = fetch_hugging_face_items("models")
+    spaces = fetch_hugging_face_items("spaces")
+    collections = fetch_hugging_face_collections()
+    for model in models:
+        model["description"] = fetch_model_description(model["id"])
+    models.sort(key=lambda item: item.get("lastModified", ""), reverse=True)
+    spaces.sort(key=lambda item: item.get("lastModified", ""), reverse=True)
+    return models, spaces, collections
+
+
+def fetch_hugging_face_collections():
+    """Fetch public collections and hydrate their current memberships."""
+    response = requests.get(
+        f"{HUGGING_FACE_API_URL}/collections",
+        params={"owner": HF_USERNAME, "limit": 100},
+        timeout=30,
+    )
+    response.raise_for_status()
+    collections = response.json()
+    if not isinstance(collections, list):
+        raise ValueError("Unexpected Hugging Face collections response")
+
+    hydrated_collections = []
+    for collection in collections:
+        slug = collection.get("slug")
+        if not slug:
+            continue
+        detail_response = requests.get(
+            f"{HUGGING_FACE_API_URL}/collections/{slug}",
+            timeout=30,
+        )
+        detail_response.raise_for_status()
+        detail = detail_response.json()
+        if not isinstance(detail, dict):
+            raise ValueError(f"Unexpected Hugging Face collection response: {slug}")
+        hydrated_collections.append(detail)
+
+    return hydrated_collections
+
+
+def fetch_model_description(model_id):
+    """Extract the first prose paragraph from a model card."""
+    try:
+        response = requests.get(
+            f"https://huggingface.co/{model_id}/raw/main/README.md",
+            timeout=30,
+        )
+        response.raise_for_status()
+    except requests.RequestException:
+        return "No description available."
+
+    markdown = response.text
+    if markdown.startswith("---"):
+        parts = markdown.split("---", 2)
+        if len(parts) == 3:
+            markdown = parts[2]
+
+    paragraph = []
+    in_code_block = False
+    for raw_line in markdown.splitlines():
+        line = raw_line.strip()
+        if line.startswith("```"):
+            in_code_block = not in_code_block
+            continue
+        if in_code_block:
+            continue
+        if not line:
+            if paragraph:
+                break
+            continue
+        if line.startswith(("#", "![", "[![", "<", "|", "-", "* ", ">")):
+            continue
+        paragraph.append(line)
+
+    return " ".join(paragraph) or "No description available."
+
+
+def format_hugging_face_tags(item):
+    """Format a small set of meaningful Hugging Face tags."""
+    excluded_tags = {
+        "endpoints_compatible",
+        "model-index",
+        "text-generation-inference",
+    }
+    excluded_prefixes = ("base_model:", "dataset:", "license:", "region:")
+    tags = []
+    for tag in item.get("tags", []):
+        if tag in excluded_tags or tag.startswith(excluded_prefixes):
+            continue
+        tags.append(f"`{tag}`")
+        if len(tags) == 5:
+            break
+    return " ".join(tags) or "-"
+
+
+def format_hugging_face_description(value):
+    """Normalize a Hugging Face description for a Markdown table cell."""
+    text = " ".join(str(value or "No description available.").split())
+    text = re.sub(r"\[([^]]+)]\([^)]+\)", r"\1", text)
+    text = text.replace("**", "").replace("`", "").replace("*", "")
+    text = textwrap.shorten(text, width=180, placeholder="...")
+    return text.replace("|", "\\|")
+
+
+def write_hugging_face_item(output, item, item_type):
+    """Write one model or Space row in a collection table."""
+    item_id = item["id"]
+    name = item_id.rsplit("/", maxsplit=1)[-1]
+    tags = format_hugging_face_tags(item)
+    if item_type == "model":
+        url = f"https://huggingface.co/{item_id}"
+        description = item.get("description")
+        label = "Model"
+    else:
+        url = f"https://huggingface.co/spaces/{item_id}"
+        card_data = item.get("cardData") or {}
+        description = card_data.get("short_description")
+        label = "Space"
+
+    output.write(
+        f"| [{name}]({url}) | {label} | {tags} | "
+        f"{format_hugging_face_description(description)} |\n"
+    )
+
+
+def write_hugging_face_collection(output, collection, resources):
+    """Write one collection description and its resource table."""
+    slug = collection.get("slug")
+    title = collection.get("title") or "Untitled collection"
+    description = format_hugging_face_description(collection.get("description"))
+    if slug:
+        output.write(f"### [{title}](https://huggingface.co/collections/{slug})\n\n")
+    else:
+        output.write(f"### {title}\n\n")
+    output.write(f"{description}\n\n")
+    output.write("| Item | Type | Tags | Description |\n")
+    output.write("|---|---|---|---|\n")
+    for item, item_type in resources:
+        write_hugging_face_item(output, item, item_type)
+    output.write("\n")
+
+
+def write_hugging_face_section(output, models, spaces, collections):
+    """Write models and Spaces grouped by their Hugging Face collections."""
+    output.write("## 🤗 Models & Spaces\n\n")
+    resources_by_id = {
+        **{model["id"]: (model, "model") for model in models},
+        **{space["id"]: (space, "space") for space in spaces},
+    }
+    collected_ids = set()
+    collection_groups = []
+
+    for collection in collections:
+        resources = []
+        for collection_item in collection.get("items", []):
+            item_id = collection_item.get("id")
+            resource = resources_by_id.get(item_id)
+            if resource is None:
+                continue
+            resources.append(resource)
+            collected_ids.add(item_id)
+        if resources:
+            collection_groups.append((collection, resources))
+
+    legacy_groups = []
+    for collection, resources in collection_groups:
+        if (collection.get("title") or "").casefold() == "legacy":
+            legacy_groups.append((collection, resources))
+        else:
+            write_hugging_face_collection(output, collection, resources)
+
+    uncollected = [resource for item_id, resource in resources_by_id.items()
+                   if item_id not in collected_ids]
+    if uncollected:
+        write_hugging_face_collection(
+            output,
+            {
+                "title": "Uncollected",
+                "description": (
+                    "Models and Spaces that have not been added to a collection yet."
+                ),
+            },
+            uncollected,
+        )
+
+    for collection, resources in legacy_groups:
+        write_hugging_face_collection(output, collection, resources)
+
+    output.write(
+        f"> 🧪 More experiments live on Hugging Face: browse all my "
+        f"[models](https://huggingface.co/{HF_USERNAME}/models) and try the "
+        f"full collection of [Spaces]"
+        f"(https://huggingface.co/{HF_USERNAME}/spaces).\n\n"
+    )
 
 # Fetch user's own repositories
 def fetch_own_repositories():
@@ -294,12 +511,12 @@ def language_badge(lang):
 
 
 def write_repo_entry(f, owner, name, url, description, lang):
-    """Write a single repo as a badge-based list entry"""
+    """Write a single repository as a compact badge-based list entry."""
     if description is None:
         description = 'No description available'
     description = description.replace("\n", " ")
 
-    f.write(f"**[@{owner}/{name}]({url})** — {description}\n\n")
+    f.write(f"**[@{owner}/{name}]({url})** — {description}<br>\n")
     f.write(f"![Stars](https://img.shields.io/github/stars/{owner}/{name}"
             f"?style=flat-square&label=%E2%AD%90) "
             f"![Forks](https://img.shields.io/github/forks/{owner}/{name}"
@@ -332,6 +549,9 @@ def main():
         print("Fetching your own repositories...")
         own_repos = fetch_own_repositories()
 
+        print("Fetching your Hugging Face models and Spaces...")
+        models, spaces, collections = fetch_hugging_face_portfolio()
+
         if not repos:
             print("No repositories found with contributions.")
             return
@@ -343,6 +563,8 @@ def main():
             # Add header content
             header_content = read_header()
             f.write(f"{header_content}\n\n")
+
+            write_hugging_face_section(f, models, spaces, collections)
 
             # Notable Contributions section (badge-based list)
             f.write("## 🚀 Notable Contributions\n\n")
@@ -366,7 +588,7 @@ def main():
             # Personal Projects section (badge-based list)
             f.write("## 🏗️ Personal Projects\n\n")
 
-            for repo in own_repos[:10]:  # Show top 10 own repos
+            for repo in own_repos[:GITHUB_ITEM_LIMIT]:
                 description = repo.get('description')
                 primary_lang = None
                 if repo.get('primaryLanguage'):
