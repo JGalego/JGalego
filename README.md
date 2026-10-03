@@ -12,6 +12,14 @@
 
 ## 🤗 Models & Spaces
 
+### [Petiscos](https://huggingface.co/collections/jgalego/petiscos-6abfae9d9d400e984e1a9015)
+
+Small models pre-trained from scratch on a budget.
+
+| Item | Type | Tags | Description |
+|---|---|---|---|
+| [eca](https://huggingface.co/jgalego/eca) | Model | `pytorch` `safetensors` `portuguese` `literature` `from-scratch` | Small GPT pre-trained from scratch on the collected works of the Portuguese novelist Eça de Queirós, from the jgalego/eca-queiros dataset. Byte-level BPE tokenizer trained on... |
+
 ### [Dialectic](https://huggingface.co/collections/jgalego/dialectic-6abede6b14dd63f3f6a5914e)
 
 Models for underrepresented languages and dialects.
@@ -27,8 +35,23 @@ Small models past the standard transformer.
 
 | Item | Type | Tags | Description |
 |---|---|---|---|
+| [trm-sudoku-extreme](https://huggingface.co/jgalego/trm-sudoku-extreme) | Model | `safetensors` `sudoku` `recursive-reasoning` `trm` `arxiv:2510.04871` | Tiny Recursive Model (TRM) trained from scratch to solve Sudoku-Extreme puzzles. One small network recursively refines a latent state and an answer, from Less is More: Recursive... |
+| [breakout-world-model](https://huggingface.co/jgalego/breakout-world-model) | Model | `pytorch` `safetensors` `world-model` `diffusion` `atari` | A diffusion world model of Atari Breakout, trained from scratch. Given the last 4 frames and actions, a small U-Net denoises the next 64×64 frame; fed its own frames, it... |
 | [buridan-2b](https://huggingface.co/jgalego/buridan-2b) | Model | `peft` `safetensors` `decision-model` `pointer-head` `calibration` | A decision model: it picks one of the options it is given and says how sure it is, in one forward pass, without generating text. A replication of Strands Decider on... |
+| [doom-world-model](https://huggingface.co/jgalego/doom-world-model) | Model | `pytorch` `safetensors` `world-model` `diffusion` `doom` | A diffusion world model of Doom, trained from scratch on the first level of Freedoom (E1M1) in ViZDoom. Given the last 4 frames and actions, a small U-Net denoises the next... |
 | [buridan-demo](https://huggingface.co/spaces/jgalego/buridan-demo) | Space | `gradio` | Pick one option from a text and say how sure |
+| [space-invaders-world-model](https://huggingface.co/jgalego/space-invaders-world-model) | Model | `pytorch` `safetensors` `world-model` `diffusion` `atari` | A diffusion world model of Atari Space Invaders, trained from scratch. Given the last 4 frames and actions, a small U-Net denoises the next 64×64 frame; fed its own frames, it... |
+| [ms-pacman-world-model](https://huggingface.co/jgalego/ms-pacman-world-model) | Model | `pytorch` `safetensors` `world-model` `diffusion` `atari` | A diffusion world model of Atari Ms. Pac-Man, trained from scratch. Given the last 4 frames and actions, a small U-Net denoises the next 64×64 frame; fed its own frames, it... |
+| [trm-sudoku-demo](https://huggingface.co/spaces/jgalego/trm-sudoku-demo) | Space | `gradio` | Watch a 5M-parameter model solve Sudoku step by step |
+
+### [Proven](https://huggingface.co/collections/jgalego/proven-6abe90a134980683d512387d)
+
+Small models whose output is checked by a compiler, prover or model checker.
+
+| Item | Type | Tags | Description |
+|---|---|---|---|
+| [ada-coder-qwen2.5-1.5b](https://huggingface.co/jgalego/ada-coder-qwen2.5-1.5b) | Model | `transformers` `safetensors` `qwen2` `text-generation` `ada` | Qwen/Qwen2.5-Coder-1.5B-Instruct fine-tuned with LoRA to write Ada 2022 and SPARK code from a task description, spec or signature. |
+| [ada-coder-qwen2.5-7b](https://huggingface.co/jgalego/ada-coder-qwen2.5-7b) | Model | `transformers` `safetensors` `qwen2` `text-generation` `ada` | Qwen/Qwen2.5-Coder-7B-Instruct fine-tuned with LoRA to write Ada 2022 and SPARK code from a task description, spec or signature. |
 
 ### [Mayday](https://huggingface.co/collections/jgalego/mayday-6abe8d5db003d4dba76e7818)
 
@@ -38,6 +61,7 @@ Small models for aviation and safety engineering. Research aids, not certified.
 |---|---|---|---|
 | [notam-subject-qwen3.5-0.8b](https://huggingface.co/jgalego/notam-subject-qwen3.5-0.8b) | Model | `transformers` `safetensors` `qwen3_5_text` `text-generation` `aviation` | Qwen/Qwen3.5-0.8B fine-tuned with LoRA to name the subject of a NOTAM: one of the 13 classes in DEEL-AI/NOTAM. |
 | [reqlint-smollm3-3b](https://huggingface.co/jgalego/reqlint-smollm3-3b) | Model | `transformers` `safetensors` `smollm3` `text-generation` `requirements-engineering` | HuggingFaceTB/SmolLM3-3B fine-tuned with LoRA to check a requirement for common writing defects and rewrite it in EARS form. Where the rewrite needs information the original... |
+| [c172-flight-dynamics](https://huggingface.co/jgalego/c172-flight-dynamics) | Model | `pytorch` `safetensors` `aviation` `world-model` `flight-dynamics` | A small world model of a Cessna 172 in flight. Given the last 4 aircraft states and stick commands, it predicts the state 0.1 s later; fed its own predictions, it flies the... |
 | [ppo-turn-heading-cessna172p](https://huggingface.co/jgalego/ppo-turn-heading-cessna172p) | Model | `stable-baselines3` `aviation` `jsbsim` `gymnasium` `ppo` | A PPO agent that flies a Cessna 172P in the JSBSim flight dynamics model. It starts on a random heading at 5,000 ft and has to turn onto a random target heading and hold... |
 | [notam-subject-demo](https://huggingface.co/spaces/jgalego/notam-subject-demo) | Space | `gradio` | Classify NOTAM text into its main aviation subject |
 | [turn-heading-demo](https://huggingface.co/spaces/jgalego/turn-heading-demo) | Space | `gradio` | Pick a heading and watch a PPO agent turn a Cessna |
