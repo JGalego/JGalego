@@ -12,6 +12,14 @@
 
 ## 🤗 Models & Spaces
 
+### [Ethos](https://huggingface.co/collections/jgalego/ethos-6ac0d16dd6ad1f928af4a0e2)
+
+Tools and datasets for looking at how models portray people.
+
+| Item | Type | Tags | Description |
+|---|---|---|---|
+| [timbre-explorer](https://huggingface.co/spaces/jgalego/timbre-explorer) | Space | `gradio` | Hear how occupation prompts change TTS voices |
+
 ### [Petiscos](https://huggingface.co/collections/jgalego/petiscos-6abfae9d9d400e984e1a9015)
 
 Small models pre-trained from scratch on a budget.
@@ -43,6 +51,7 @@ Small models past the standard transformer.
 | [space-invaders-world-model](https://huggingface.co/jgalego/space-invaders-world-model) | Model | `pytorch` `safetensors` `world-model` `diffusion` `atari` | A diffusion world model of Atari Space Invaders, trained from scratch. Given the last 4 frames and actions, a small U-Net denoises the next 64×64 frame; fed its own frames, it... |
 | [ms-pacman-world-model](https://huggingface.co/jgalego/ms-pacman-world-model) | Model | `pytorch` `safetensors` `world-model` `diffusion` `atari` | A diffusion world model of Atari Ms. Pac-Man, trained from scratch. Given the last 4 frames and actions, a small U-Net denoises the next 64×64 frame; fed its own frames, it... |
 | [trm-sudoku-demo](https://huggingface.co/spaces/jgalego/trm-sudoku-demo) | Space | `gradio` | Watch a 5M-parameter model solve Sudoku step by step |
+| [fly-whisperer](https://huggingface.co/spaces/jgalego/fly-whisperer) | Space | `static` | Sneak up on a fruit fly, then teach its brain a smell |
 
 ### [Proven](https://huggingface.co/collections/jgalego/proven-6abe90a134980683d512387d)
 
