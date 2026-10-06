@@ -12,6 +12,15 @@
 
 ## 🤗 Models & Spaces
 
+### [Stat](https://huggingface.co/collections/jgalego/stat-6ac20010aadad5e0494d34af)
+
+Small models for health and life sciences data. Research aids, not for clinical use.
+
+| Item | Type | Tags | Description |
+|---|---|---|---|
+| [mosquito-mtrcnn-dg](https://huggingface.co/jgalego/mosquito-mtrcnn-dg) | Model | `audio-classification` `bioacoustics` `mosquito` `domain-generalization` | A compact MTRCNN classifier that names the mosquito species in a flight-tone recording, trained for cross-domain generalization on the BioDCASE 2026 Task 5 development data. It... |
+| [mosquito-species-demo](https://huggingface.co/spaces/jgalego/mosquito-species-demo) | Space | `gradio` | Name the mosquito species in a flight-tone recording |
+
 ### [Ethos](https://huggingface.co/collections/jgalego/ethos-6ac0d16dd6ad1f928af4a0e2)
 
 Tools and datasets for looking at how models portray people.
