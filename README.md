@@ -84,6 +84,15 @@ Small models for aviation and safety engineering. Research aids, not certified.
 | [notam-subject-demo](https://huggingface.co/spaces/jgalego/notam-subject-demo) | Space | `gradio` | Classify NOTAM text into its main aviation subject |
 | [turn-heading-demo](https://huggingface.co/spaces/jgalego/turn-heading-demo) | Space | `gradio` | Pick a heading and watch a PPO agent turn a Cessna |
 
+### Uncollected
+
+Models and Spaces that have not been added to a collection yet.
+
+| Item | Type | Tags | Description |
+|---|---|---|---|
+| [knot2vec](https://huggingface.co/jgalego/knot2vec) | Model | `pytorch` `safetensors` `knot-theory` `embeddings` `contrastive-learning` | Embeddings for knot diagrams. Two diagrams of the same knot, however tangled, should land close together; diagrams of different knots should land apart. Part of Weird2Vec,... |
+| [knot2vec-demo](https://huggingface.co/spaces/jgalego/knot2vec-demo) | Space | `gradio` | Tangle a knot diagram and see if Knot2Vec can still name it |
+
 ### [Legacy](https://huggingface.co/collections/jgalego/legacy-6abfaa376352ca4f9772f255)
 
 Older models, datasets and Spaces.
