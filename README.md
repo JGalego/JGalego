@@ -91,6 +91,9 @@ Models and Spaces that have not been added to a collection yet.
 | Item | Type | Tags | Description |
 |---|---|---|---|
 | [knot2vec](https://huggingface.co/jgalego/knot2vec) | Model | `pytorch` `safetensors` `knot-theory` `embeddings` `contrastive-learning` | Embeddings for knot diagrams. Two diagrams of the same knot, however tangled, should land close together; diagrams of different knots should land apart. Part of Weird2Vec,... |
+| [bridge2vec](https://huggingface.co/jgalego/bridge2vec) | Model | `pytorch` `safetensors` `contract-bridge` `double-dummy` `embeddings` | Embeddings for contract bridge hands. Two hands land close together when they take tricks alike. Part of Weird2Vec, embedding models for data nobody embeds. |
+| [orbit2vec](https://huggingface.co/jgalego/orbit2vec) | Model | `pytorch` `safetensors` `space` `satellites` `tle` | Embeddings for satellite orbit histories. Two windows of the same object, a month apart, should land close together; other objects should land apart. Part of Weird2Vec,... |
+| [bridge2vec-demo](https://huggingface.co/spaces/jgalego/bridge2vec-demo) | Space | `gradio` | Out-read a bridge model, then find hands that play alike |
 | [knot2vec-demo](https://huggingface.co/spaces/jgalego/knot2vec-demo) | Space | `gradio` | Tangle a knot diagram and see if Knot2Vec can still name it |
 
 ### [Legacy](https://huggingface.co/collections/jgalego/legacy-6abfaa376352ca4f9772f255)
