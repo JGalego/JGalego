@@ -48,6 +48,7 @@ The script will generate `github-contributions.md` with your metrics.
 | `GITHUB_TOKEN` | GitHub Personal Access Token | *Required* |
 | `GITHUB_USERNAME` | Your GitHub username | `"JGalego"` |
 | `HEADER_FILE` | Custom header file to use | `"header.md"` |
+| `OUTPUT_FILE` | File to write the generated Markdown to | `"README.md"` |
 
 ### Language Exclusions
 
@@ -83,6 +84,13 @@ python3 github_metrics.py
 export GITHUB_USERNAME=octocat
 python3 github_metrics.py
 ```
+
+### Previewing Without Committing
+`README.md` is generated, so edit `header.md` (or the script) instead and preview the result without touching the tracked file:
+```bash
+OUTPUT_FILE=/tmp/preview.md python3 github_metrics.py
+```
+Then open `/tmp/preview.md` in your editor's Markdown preview (VS Code: `Ctrl+Shift+V`). For a quick look at just your header, preview `header.md` directly. To see the exact GitHub rendering, push a branch and view the file there; nothing changes on your profile until it reaches `main`.
 
 ## 📊 Output Format
 

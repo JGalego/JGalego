@@ -350,6 +350,7 @@ def write_hugging_face_collection(output, collection, resources):
 def write_hugging_face_section(output, models, spaces, collections):
     """Write models and Spaces grouped by their Hugging Face collections."""
     output.write("## 🤗 Models & Spaces\n\n")
+    output.write("<details>\n<summary>Browse all collections</summary>\n\n")
     resources_by_id = {
         **{model["id"]: (model, "model") for model in models},
         **{space["id"]: (space, "space") for space in spaces},
@@ -393,6 +394,7 @@ def write_hugging_face_section(output, models, spaces, collections):
     for collection, resources in legacy_groups:
         write_hugging_face_collection(output, collection, resources)
 
+    output.write("</details>\n\n")
     output.write(
         f"> 🧪 More experiments live on Hugging Face: browse all my "
         f"[models](https://huggingface.co/{HF_USERNAME}/models) and try the "
