@@ -174,6 +174,9 @@ Older models, datasets and Spaces.
 **[@langchain-ai/langserve](https://github.com/langchain-ai/langserve)** — LangServe 🦜️🏓<br>
 ![Stars](https://img.shields.io/github/stars/langchain-ai/langserve?style=flat-square&label=%E2%AD%90) ![Forks](https://img.shields.io/github/forks/langchain-ai/langserve?style=flat-square&label=%F0%9F%8D%B4) ![JavaScript](https://img.shields.io/badge/-JavaScript-f1e05a?style=flat-square)
 
+**[@langgraph4j/langgraph4j](https://github.com/langgraph4j/langgraph4j)** — 🚀 LangGraph for Java is a library for Graph Engineering, designed to build sophisticated AI agentic architectures within the Java ecosystem. It works seamlessly with both Langchain4j and Spring AI.<br>
+![Stars](https://img.shields.io/github/stars/langgraph4j/langgraph4j?style=flat-square&label=%E2%AD%90) ![Forks](https://img.shields.io/github/forks/langgraph4j/langgraph4j?style=flat-square&label=%F0%9F%8D%B4) ![Java](https://img.shields.io/badge/-Java-b07219?style=flat-square)
+
 **[@google-deepmind/concordia](https://github.com/google-deepmind/concordia)** — A library for generative social simulation<br>
 ![Stars](https://img.shields.io/github/stars/google-deepmind/concordia?style=flat-square&label=%E2%AD%90) ![Forks](https://img.shields.io/github/forks/google-deepmind/concordia?style=flat-square&label=%F0%9F%8D%B4) ![Python](https://img.shields.io/badge/-Python-3572A5?style=flat-square)
 
