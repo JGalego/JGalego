@@ -96,6 +96,10 @@ Small models past the standard transformer.
 | [ms-pacman-world-model](https://huggingface.co/jgalego/ms-pacman-world-model) | Model | `pytorch` `safetensors` `world-model` `diffusion` `atari` | A diffusion world model of Atari Ms. Pac-Man, trained from scratch. Given the last 4 frames and actions, a small U-Net denoises the next 64×64 frame; fed its own frames, it... |
 | [trm-sudoku-demo](https://huggingface.co/spaces/jgalego/trm-sudoku-demo) | Space | `gradio` | Watch a 5M-parameter model solve Sudoku step by step |
 | [fly-whisperer](https://huggingface.co/spaces/jgalego/fly-whisperer) | Space | `static` | Sneak up on a fruit fly, then teach its brain a smell |
+| [qwenputer-panel](https://huggingface.co/spaces/jgalego/qwenputer-panel) | Space | `static` | Watch the RISC-V CPU inside Qwen3.5-4B run a tool call |
+| [olmputer-tiny](https://huggingface.co/jgalego/olmputer-tiny) | Model | `transformers` `safetensors` `olmo_hybrid` `text-generation` `risc-v` | A RISC-V computer (RV32IM + Zba) compiled into the layers of a stock OlmoHybridForCausalLM. No weight is trained: a compiler computes all of them. The code ROM, data ROM, RAM... |
+| [olmputer](https://huggingface.co/jgalego/olmputer) | Model | `transformers` `safetensors` `olmo_hybrid` `text-generation` `risc-v` | allenai/Olmo-Hybrid-Instruct-DPO-7B with a RISC-V computer (RV32IM + Zba) compiled into 11 extra layers in front of its own. When OLMo calls its calc tool, the CPU runs the... |
+| [qwenguard-demo](https://huggingface.co/spaces/jgalego/qwenguard-demo) | Space | `gradio` | Tool calls checked by the CPU inside Qwenputer |
 
 ### [Proven](https://huggingface.co/collections/jgalego/proven-6abe90a134980683d512387d)
 
